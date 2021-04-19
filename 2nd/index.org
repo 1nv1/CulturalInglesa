@@ -39,6 +39,7 @@
     "comfortable" -> "more comfortable" [ label = "'more' + adjective" ];
     "Irregular adjective" -> { "good", "bad" } [ label = "as" ];
     "good" -> "better"; "bad" -> "worse";
+    { "better", "worse" } -> "than";
     { "faster", "more comfortable" }  -> "than";
   }
 #+END_SRC

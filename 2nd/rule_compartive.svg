@@ -11,140 +11,152 @@
 <!-- Short adjective -->
 <g id="node1" class="node">
 <title>Short adjective</title>
-<path fill="#f5f5f5" stroke="black" d="M120,-90C120,-90 23,-90 23,-90 17,-90 11,-84 11,-78 11,-78 11,-66 11,-66 11,-60 17,-54 23,-54 23,-54 120,-54 120,-54 126,-54 132,-60 132,-66 132,-66 132,-78 132,-78 132,-84 126,-90 120,-90"/>
-<text text-anchor="middle" x="71.5" y="-68.3" font-family="Times-Roman" font-size="14.00">Short adjective</text>
+<path fill="#f5f5f5" stroke="black" d="M120,-198C120,-198 23,-198 23,-198 17,-198 11,-192 11,-186 11,-186 11,-174 11,-174 11,-168 17,-162 23,-162 23,-162 120,-162 120,-162 126,-162 132,-168 132,-174 132,-174 132,-186 132,-186 132,-192 126,-198 120,-198"/>
+<text text-anchor="middle" x="71.5" y="-176.3" font-family="Times-Roman" font-size="14.00">Short adjective</text>
 </g>
 <!-- fast -->
 <g id="node2" class="node">
 <title>fast</title>
-<path fill="#f5f5f5" stroke="black" d="M260,-90C260,-90 230,-90 230,-90 224,-90 218,-84 218,-78 218,-78 218,-66 218,-66 218,-60 224,-54 230,-54 230,-54 260,-54 260,-54 266,-54 272,-60 272,-66 272,-66 272,-78 272,-78 272,-84 266,-90 260,-90"/>
-<text text-anchor="middle" x="245" y="-68.3" font-family="Times-Roman" font-size="14.00">fast</text>
+<path fill="#f5f5f5" stroke="black" d="M260,-198C260,-198 230,-198 230,-198 224,-198 218,-192 218,-186 218,-186 218,-174 218,-174 218,-168 224,-162 230,-162 230,-162 260,-162 260,-162 266,-162 272,-168 272,-174 272,-174 272,-186 272,-186 272,-192 266,-198 260,-198"/>
+<text text-anchor="middle" x="245" y="-176.3" font-family="Times-Roman" font-size="14.00">fast</text>
 </g>
 <!-- Short adjective&#45;&gt;fast -->
 <g id="edge1" class="edge">
 <title>Short adjective&#45;&gt;fast</title>
-<path fill="none" stroke="black" d="M132,-72C157.11,-72 185.54,-72 207.47,-72"/>
-<polygon fill="black" stroke="black" points="207.68,-75.5 217.68,-72 207.68,-68.5 207.68,-75.5"/>
-<text text-anchor="middle" x="169" y="-75.8" font-family="Times-Roman" font-size="14.00">as</text>
+<path fill="none" stroke="black" d="M132,-180C157.11,-180 185.54,-180 207.47,-180"/>
+<polygon fill="black" stroke="black" points="207.68,-183.5 217.68,-180 207.68,-176.5 207.68,-183.5"/>
+<text text-anchor="middle" x="169" y="-183.8" font-family="Times-Roman" font-size="14.00">as</text>
 </g>
 <!-- faster -->
 <g id="node3" class="node">
 <title>faster</title>
-<path fill="#f5f5f5" stroke="black" d="M544.5,-90C544.5,-90 511.5,-90 511.5,-90 505.5,-90 499.5,-84 499.5,-78 499.5,-78 499.5,-66 499.5,-66 499.5,-60 505.5,-54 511.5,-54 511.5,-54 544.5,-54 544.5,-54 550.5,-54 556.5,-60 556.5,-66 556.5,-66 556.5,-78 556.5,-78 556.5,-84 550.5,-90 544.5,-90"/>
-<text text-anchor="middle" x="528" y="-68.3" font-family="Times-Roman" font-size="14.00">faster</text>
+<path fill="#f5f5f5" stroke="black" d="M544.5,-198C544.5,-198 511.5,-198 511.5,-198 505.5,-198 499.5,-192 499.5,-186 499.5,-186 499.5,-174 499.5,-174 499.5,-168 505.5,-162 511.5,-162 511.5,-162 544.5,-162 544.5,-162 550.5,-162 556.5,-168 556.5,-174 556.5,-174 556.5,-186 556.5,-186 556.5,-192 550.5,-198 544.5,-198"/>
+<text text-anchor="middle" x="528" y="-176.3" font-family="Times-Roman" font-size="14.00">faster</text>
 </g>
 <!-- fast&#45;&gt;faster -->
 <g id="edge2" class="edge">
 <title>fast&#45;&gt;faster</title>
-<path fill="none" stroke="black" d="M272.18,-72C322.08,-72 430.96,-72 488.92,-72"/>
-<polygon fill="black" stroke="black" points="489.12,-75.5 499.12,-72 489.12,-68.5 489.12,-75.5"/>
-<text text-anchor="middle" x="376.5" y="-75.8" font-family="Times-Roman" font-size="14.00">adjective + &#39;&#45;er&#39;</text>
+<path fill="none" stroke="black" d="M272.18,-180C322.08,-180 430.96,-180 488.92,-180"/>
+<polygon fill="black" stroke="black" points="489.12,-183.5 499.12,-180 489.12,-176.5 489.12,-183.5"/>
+<text text-anchor="middle" x="376.5" y="-183.8" font-family="Times-Roman" font-size="14.00">adjective + &#39;&#45;er&#39;</text>
 </g>
 <!-- than -->
 <g id="node12" class="node">
 <title>than</title>
-<path fill="#f5f5f5" stroke="black" d="M677,-62C677,-62 647,-62 647,-62 641,-62 635,-56 635,-50 635,-50 635,-38 635,-38 635,-32 641,-26 647,-26 647,-26 677,-26 677,-26 683,-26 689,-32 689,-38 689,-38 689,-50 689,-50 689,-56 683,-62 677,-62"/>
-<text text-anchor="middle" x="662" y="-40.3" font-family="Times-Roman" font-size="14.00">than</text>
+<path fill="#f5f5f5" stroke="black" d="M677,-120C677,-120 647,-120 647,-120 641,-120 635,-114 635,-108 635,-108 635,-96 635,-96 635,-90 641,-84 647,-84 647,-84 677,-84 677,-84 683,-84 689,-90 689,-96 689,-96 689,-108 689,-108 689,-114 683,-120 677,-120"/>
+<text text-anchor="middle" x="662" y="-98.3" font-family="Times-Roman" font-size="14.00">than</text>
 </g>
 <!-- faster&#45;&gt;than -->
-<g id="edge9" class="edge">
+<g id="edge11" class="edge">
 <title>faster&#45;&gt;than</title>
-<path fill="none" stroke="black" d="M556.67,-66.13C576.42,-61.94 603.18,-56.26 624.65,-51.71"/>
-<polygon fill="black" stroke="black" points="625.66,-55.07 634.71,-49.58 624.21,-48.23 625.66,-55.07"/>
+<path fill="none" stroke="black" d="M556.76,-171.34C569.72,-166.75 585.1,-160.5 598,-153 610.6,-145.67 623.32,-135.92 634,-126.91"/>
+<polygon fill="black" stroke="black" points="636.46,-129.41 641.73,-120.22 631.88,-124.12 636.46,-129.41"/>
 </g>
 <!-- Long adjective -->
 <g id="node4" class="node">
 <title>Long adjective</title>
-<path fill="#f5f5f5" stroke="black" d="M118,-36C118,-36 25,-36 25,-36 19,-36 13,-30 13,-24 13,-24 13,-12 13,-12 13,-6 19,0 25,0 25,0 118,0 118,0 124,0 130,-6 130,-12 130,-12 130,-24 130,-24 130,-30 124,-36 118,-36"/>
-<text text-anchor="middle" x="71.5" y="-14.3" font-family="Times-Roman" font-size="14.00">Long adjective</text>
+<path fill="#f5f5f5" stroke="black" d="M118,-144C118,-144 25,-144 25,-144 19,-144 13,-138 13,-132 13,-132 13,-120 13,-120 13,-114 19,-108 25,-108 25,-108 118,-108 118,-108 124,-108 130,-114 130,-120 130,-120 130,-132 130,-132 130,-138 124,-144 118,-144"/>
+<text text-anchor="middle" x="71.5" y="-122.3" font-family="Times-Roman" font-size="14.00">Long adjective</text>
 </g>
 <!-- comfortable -->
 <g id="node5" class="node">
 <title>comfortable</title>
-<path fill="#f5f5f5" stroke="black" d="M283,-36C283,-36 207,-36 207,-36 201,-36 195,-30 195,-24 195,-24 195,-12 195,-12 195,-6 201,0 207,0 207,0 283,0 283,0 289,0 295,-6 295,-12 295,-12 295,-24 295,-24 295,-30 289,-36 283,-36"/>
-<text text-anchor="middle" x="245" y="-14.3" font-family="Times-Roman" font-size="14.00">comfortable</text>
+<path fill="#f5f5f5" stroke="black" d="M283,-144C283,-144 207,-144 207,-144 201,-144 195,-138 195,-132 195,-132 195,-120 195,-120 195,-114 201,-108 207,-108 207,-108 283,-108 283,-108 289,-108 295,-114 295,-120 295,-120 295,-132 295,-132 295,-138 289,-144 283,-144"/>
+<text text-anchor="middle" x="245" y="-122.3" font-family="Times-Roman" font-size="14.00">comfortable</text>
 </g>
 <!-- Long adjective&#45;&gt;comfortable -->
 <g id="edge3" class="edge">
 <title>Long adjective&#45;&gt;comfortable</title>
-<path fill="none" stroke="black" d="M130.08,-18C147.65,-18 167,-18 184.68,-18"/>
-<polygon fill="black" stroke="black" points="184.88,-21.5 194.88,-18 184.88,-14.5 184.88,-21.5"/>
-<text text-anchor="middle" x="169" y="-21.8" font-family="Times-Roman" font-size="14.00">as</text>
+<path fill="none" stroke="black" d="M130.08,-126C147.65,-126 167,-126 184.68,-126"/>
+<polygon fill="black" stroke="black" points="184.88,-129.5 194.88,-126 184.88,-122.5 184.88,-129.5"/>
+<text text-anchor="middle" x="169" y="-129.8" font-family="Times-Roman" font-size="14.00">as</text>
 </g>
 <!-- more comfortable -->
 <g id="node6" class="node">
 <title>more comfortable</title>
-<path fill="#f5f5f5" stroke="black" d="M586,-36C586,-36 470,-36 470,-36 464,-36 458,-30 458,-24 458,-24 458,-12 458,-12 458,-6 464,0 470,0 470,0 586,0 586,0 592,0 598,-6 598,-12 598,-12 598,-24 598,-24 598,-30 592,-36 586,-36"/>
-<text text-anchor="middle" x="528" y="-14.3" font-family="Times-Roman" font-size="14.00">more comfortable</text>
+<path fill="#f5f5f5" stroke="black" d="M586,-144C586,-144 470,-144 470,-144 464,-144 458,-138 458,-132 458,-132 458,-120 458,-120 458,-114 464,-108 470,-108 470,-108 586,-108 586,-108 592,-108 598,-114 598,-120 598,-120 598,-132 598,-132 598,-138 592,-144 586,-144"/>
+<text text-anchor="middle" x="528" y="-122.3" font-family="Times-Roman" font-size="14.00">more comfortable</text>
 </g>
 <!-- comfortable&#45;&gt;more comfortable -->
 <g id="edge4" class="edge">
 <title>comfortable&#45;&gt;more comfortable</title>
-<path fill="none" stroke="black" d="M295.27,-18C337.37,-18 398.72,-18 447.73,-18"/>
-<polygon fill="black" stroke="black" points="447.99,-21.5 457.99,-18 447.99,-14.5 447.99,-21.5"/>
-<text text-anchor="middle" x="376.5" y="-21.8" font-family="Times-Roman" font-size="14.00">&#39;more&#39; + adjective</text>
+<path fill="none" stroke="black" d="M295.27,-126C337.37,-126 398.72,-126 447.73,-126"/>
+<polygon fill="black" stroke="black" points="447.99,-129.5 457.99,-126 447.99,-122.5 447.99,-129.5"/>
+<text text-anchor="middle" x="376.5" y="-129.8" font-family="Times-Roman" font-size="14.00">&#39;more&#39; + adjective</text>
 </g>
 <!-- more comfortable&#45;&gt;than -->
-<g id="edge10" class="edge">
+<g id="edge12" class="edge">
 <title>more comfortable&#45;&gt;than</title>
-<path fill="none" stroke="black" d="M598.09,-31.61C607.3,-33.42 616.43,-35.22 624.76,-36.86"/>
-<polygon fill="black" stroke="black" points="624.34,-40.35 634.83,-38.85 625.7,-33.48 624.34,-40.35"/>
+<path fill="none" stroke="black" d="M598.09,-113.44C607.3,-111.76 616.43,-110.1 624.76,-108.59"/>
+<polygon fill="black" stroke="black" points="625.62,-111.99 634.83,-106.76 624.37,-105.1 625.62,-111.99"/>
 </g>
 <!-- Irregular adjective -->
 <g id="node7" class="node">
 <title>Irregular adjective</title>
-<path fill="#f5f5f5" stroke="black" d="M131,-171C131,-171 12,-171 12,-171 6,-171 0,-165 0,-159 0,-159 0,-147 0,-147 0,-141 6,-135 12,-135 12,-135 131,-135 131,-135 137,-135 143,-141 143,-147 143,-147 143,-159 143,-159 143,-165 137,-171 131,-171"/>
-<text text-anchor="middle" x="71.5" y="-149.3" font-family="Times-Roman" font-size="14.00">Irregular adjective</text>
+<path fill="#f5f5f5" stroke="black" d="M131,-71C131,-71 12,-71 12,-71 6,-71 0,-65 0,-59 0,-59 0,-47 0,-47 0,-41 6,-35 12,-35 12,-35 131,-35 131,-35 137,-35 143,-41 143,-47 143,-47 143,-59 143,-59 143,-65 137,-71 131,-71"/>
+<text text-anchor="middle" x="71.5" y="-49.3" font-family="Times-Roman" font-size="14.00">Irregular adjective</text>
 </g>
 <!-- good -->
 <g id="node8" class="node">
 <title>good</title>
-<path fill="#f5f5f5" stroke="black" d="M260,-198C260,-198 230,-198 230,-198 224,-198 218,-192 218,-186 218,-186 218,-174 218,-174 218,-168 224,-162 230,-162 230,-162 260,-162 260,-162 266,-162 272,-168 272,-174 272,-174 272,-186 272,-186 272,-192 266,-198 260,-198"/>
-<text text-anchor="middle" x="245" y="-176.3" font-family="Times-Roman" font-size="14.00">good</text>
+<path fill="#f5f5f5" stroke="black" d="M260,-90C260,-90 230,-90 230,-90 224,-90 218,-84 218,-78 218,-78 218,-66 218,-66 218,-60 224,-54 230,-54 230,-54 260,-54 260,-54 266,-54 272,-60 272,-66 272,-66 272,-78 272,-78 272,-84 266,-90 260,-90"/>
+<text text-anchor="middle" x="245" y="-68.3" font-family="Times-Roman" font-size="14.00">good</text>
 </g>
 <!-- Irregular adjective&#45;&gt;good -->
 <g id="edge5" class="edge">
 <title>Irregular adjective&#45;&gt;good</title>
-<path fill="none" stroke="black" d="M143.25,-164.14C165.51,-167.64 189.17,-171.37 207.96,-174.33"/>
-<polygon fill="black" stroke="black" points="207.44,-177.79 217.86,-175.89 208.53,-170.87 207.44,-177.79"/>
-<text text-anchor="middle" x="169" y="-171.8" font-family="Times-Roman" font-size="14.00">as</text>
+<path fill="none" stroke="black" d="M143.25,-60.84C165.41,-63.29 188.95,-65.9 207.7,-67.98"/>
+<polygon fill="black" stroke="black" points="207.54,-71.48 217.86,-69.1 208.31,-64.52 207.54,-71.48"/>
+<text text-anchor="middle" x="169" y="-67.8" font-family="Times-Roman" font-size="14.00">as</text>
 </g>
 <!-- bad -->
 <g id="node9" class="node">
 <title>bad</title>
-<path fill="#f5f5f5" stroke="black" d="M260,-144C260,-144 230,-144 230,-144 224,-144 218,-138 218,-132 218,-132 218,-120 218,-120 218,-114 224,-108 230,-108 230,-108 260,-108 260,-108 266,-108 272,-114 272,-120 272,-120 272,-132 272,-132 272,-138 266,-144 260,-144"/>
-<text text-anchor="middle" x="245" y="-122.3" font-family="Times-Roman" font-size="14.00">bad</text>
+<path fill="#f5f5f5" stroke="black" d="M260,-36C260,-36 230,-36 230,-36 224,-36 218,-30 218,-24 218,-24 218,-12 218,-12 218,-6 224,0 230,0 230,0 260,0 260,0 266,0 272,-6 272,-12 272,-12 272,-24 272,-24 272,-30 266,-36 260,-36"/>
+<text text-anchor="middle" x="245" y="-14.3" font-family="Times-Roman" font-size="14.00">bad</text>
 </g>
 <!-- Irregular adjective&#45;&gt;bad -->
 <g id="edge6" class="edge">
 <title>Irregular adjective&#45;&gt;bad</title>
-<path fill="none" stroke="black" d="M143.25,-141.86C165.51,-138.36 189.17,-134.63 207.96,-131.67"/>
-<polygon fill="black" stroke="black" points="208.53,-135.13 217.86,-130.11 207.44,-128.21 208.53,-135.13"/>
-<text text-anchor="middle" x="169" y="-141.8" font-family="Times-Roman" font-size="14.00">as</text>
+<path fill="none" stroke="black" d="M143.25,-38.56C165.51,-34.02 189.17,-29.19 207.96,-25.35"/>
+<polygon fill="black" stroke="black" points="208.76,-28.76 217.86,-23.33 207.36,-21.9 208.76,-28.76"/>
+<text text-anchor="middle" x="169" y="-38.8" font-family="Times-Roman" font-size="14.00">as</text>
 </g>
 <!-- better -->
 <g id="node10" class="node">
 <title>better</title>
-<path fill="#f5f5f5" stroke="black" d="M545.5,-198C545.5,-198 510.5,-198 510.5,-198 504.5,-198 498.5,-192 498.5,-186 498.5,-186 498.5,-174 498.5,-174 498.5,-168 504.5,-162 510.5,-162 510.5,-162 545.5,-162 545.5,-162 551.5,-162 557.5,-168 557.5,-174 557.5,-174 557.5,-186 557.5,-186 557.5,-192 551.5,-198 545.5,-198"/>
-<text text-anchor="middle" x="528" y="-176.3" font-family="Times-Roman" font-size="14.00">better</text>
+<path fill="#f5f5f5" stroke="black" d="M545.5,-90C545.5,-90 510.5,-90 510.5,-90 504.5,-90 498.5,-84 498.5,-78 498.5,-78 498.5,-66 498.5,-66 498.5,-60 504.5,-54 510.5,-54 510.5,-54 545.5,-54 545.5,-54 551.5,-54 557.5,-60 557.5,-66 557.5,-66 557.5,-78 557.5,-78 557.5,-84 551.5,-90 545.5,-90"/>
+<text text-anchor="middle" x="528" y="-68.3" font-family="Times-Roman" font-size="14.00">better</text>
 </g>
 <!-- good&#45;&gt;better -->
 <g id="edge7" class="edge">
 <title>good&#45;&gt;better</title>
-<path fill="none" stroke="black" d="M272.18,-180C321.82,-180 429.84,-180 488.02,-180"/>
-<polygon fill="black" stroke="black" points="488.28,-183.5 498.28,-180 488.28,-176.5 488.28,-183.5"/>
+<path fill="none" stroke="black" d="M272.18,-72C321.82,-72 429.84,-72 488.02,-72"/>
+<polygon fill="black" stroke="black" points="488.28,-75.5 498.28,-72 488.28,-68.5 488.28,-75.5"/>
 </g>
 <!-- worse -->
 <g id="node11" class="node">
 <title>worse</title>
-<path fill="#f5f5f5" stroke="black" d="M545,-144C545,-144 511,-144 511,-144 505,-144 499,-138 499,-132 499,-132 499,-120 499,-120 499,-114 505,-108 511,-108 511,-108 545,-108 545,-108 551,-108 557,-114 557,-120 557,-120 557,-132 557,-132 557,-138 551,-144 545,-144"/>
-<text text-anchor="middle" x="528" y="-122.3" font-family="Times-Roman" font-size="14.00">worse</text>
+<path fill="#f5f5f5" stroke="black" d="M545,-36C545,-36 511,-36 511,-36 505,-36 499,-30 499,-24 499,-24 499,-12 499,-12 499,-6 505,0 511,0 511,0 545,0 545,0 551,0 557,-6 557,-12 557,-12 557,-24 557,-24 557,-30 551,-36 545,-36"/>
+<text text-anchor="middle" x="528" y="-14.3" font-family="Times-Roman" font-size="14.00">worse</text>
 </g>
 <!-- bad&#45;&gt;worse -->
 <g id="edge8" class="edge">
 <title>bad&#45;&gt;worse</title>
-<path fill="none" stroke="black" d="M272.18,-126C321.95,-126 430.4,-126 488.47,-126"/>
-<polygon fill="black" stroke="black" points="488.7,-129.5 498.7,-126 488.7,-122.5 488.7,-129.5"/>
+<path fill="none" stroke="black" d="M272.18,-18C321.95,-18 430.4,-18 488.47,-18"/>
+<polygon fill="black" stroke="black" points="488.7,-21.5 498.7,-18 488.7,-14.5 488.7,-21.5"/>
+</g>
+<!-- better&#45;&gt;than -->
+<g id="edge9" class="edge">
+<title>better&#45;&gt;than</title>
+<path fill="none" stroke="black" d="M557.64,-78.51C577.32,-82.98 603.61,-88.96 624.75,-93.76"/>
+<polygon fill="black" stroke="black" points="624.13,-97.21 634.66,-96.01 625.68,-90.38 624.13,-97.21"/>
+</g>
+<!-- worse&#45;&gt;than -->
+<g id="edge10" class="edge">
+<title>worse&#45;&gt;than</title>
+<path fill="none" stroke="black" d="M557.29,-26.46C570.22,-30.98 585.42,-37.21 598,-45 612.16,-53.77 626.09,-65.89 637.24,-76.71"/>
+<polygon fill="black" stroke="black" points="634.92,-79.34 644.47,-83.93 639.87,-74.39 634.92,-79.34"/>
 </g>
 </g>
 </svg>
