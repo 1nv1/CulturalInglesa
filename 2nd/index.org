@@ -27,9 +27,7 @@
 
 ** Grammar
 
-*** Comparatives
-
-**** Rules
+*** Comparatives: Rules
 
 #+BEGIN_SRC dot :file rule_compartive.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
@@ -47,20 +45,21 @@
 #+RESULTS:
 [[file:rule_compartive.svg]]
     
-**** Basic examples
+*** Comparatives: Basic examples
 
-    - (NICE) :: Beach is _nicer_ than city for a day out.
-    - (COMFORTABLE) :: Trainers are _more comfortable_ than shoes for travelling.
-    - (BAD) :: Travelling by bus is _worse_ than travelling by car on a hot day.
-    - (WARM) :: Madrid _is warmer than_ London.
-    - (EXPENSIVE) :: The Regal Hotel _is more expensive than_ Park Hotel.
-    - (CONSUME) :: I the UK, coffee _is more consume than_ tea.
-    - (NEAR) :: Heathrow Airport _is nearer to_ Central London _than_ Gatwick Airport.
-    - (LONG) :: The Toyota Prius _is longer than_ Toyota Auris.
-    - (EXPENSIVE) :: Sunflowers by Van Gogh _is more expensive than_ Nympheas by Monet.
+    | Adjective   | Example                                                                |
+    |-------------+------------------------------------------------------------------------|
+    | NICE        | Beach is _nicer_ than city for a day out.                              |
+    | COMFORTABLE | Trainers are _more comfortable_ than shoes for travelling.             |
+    | BAD         | Travelling by bus is _worse_ than travelling by car on a hot day.      |
+    | WARM        | Madrid _is warmer than_ London.                                        |
+    | EXPENSIVE   | The Regal Hotel _is more expensive than_ Park Hotel.                   |
+    | CONSUME     | I the UK, coffee _is more consume than_ tea.                           |
+    | NEAR        | Heathrow Airport _is nearer to_ Central London _than_ Gatwick Airport. |
+    | LONG        | The Toyota Prius _is longer than_ Toyota Auris.                        |
+    | EXPENSIVE   | Sunflowers by Van Gogh _is more expensive than_ Nympheas by Monet.     |
 
-**** More examples
-
+*** Comparatives: More examples
 
     | Adjective   | Example                                                                              |
     |-------------+--------------------------------------------------------------------------------------|
