@@ -45,26 +45,26 @@
 
     | Adjective   | Example                                                                |
     |-------------+------------------------------------------------------------------------|
-    | NICE        | Beach is _nicer_ than city for a day out.                              |
-    | COMFORTABLE | Trainers are _more comfortable_ than shoes for travelling.             |
-    | BAD         | Travelling by bus is _worse_ than travelling by car on a hot day.      |
-    | WARM        | Madrid _is warmer than_ London.                                        |
-    | EXPENSIVE   | The Regal Hotel _is more expensive than_ Park Hotel.                   |
-    | CONSUME     | I the UK, coffee _is more consume than_ tea.                           |
-    | NEAR        | Heathrow Airport _is nearer to_ Central London _than_ Gatwick Airport. |
-    | LONG        | The Toyota Prius _is longer than_ Toyota Auris.                        |
-    | EXPENSIVE   | Sunflowers by Van Gogh _is more expensive than_ Nympheas by Monet.     |
+    | nice        | Beach is _nicer_ than city for a day out.                              |
+    | comfortable | Trainers are _more comfortable_ than shoes for travelling.             |
+    | bad         | Travelling by bus is _worse_ than travelling by car on a hot day.      |
+    | warm        | Madrid _is warmer than_ London.                                        |
+    | expensive   | The Regal Hotel _is more expensive than_ Park Hotel.                   |
+    | consume     | I the UK, coffee _is more consume than_ tea.                           |
+    | near        | Heathrow Airport _is nearer to_ Central London _than_ Gatwick Airport. |
+    | long        | The Toyota Prius _is longer than_ Toyota Auris.                        |
+    | expensive   | Sunflowers by Van Gogh _is more expensive than_ Nympheas by Monet.     |
 
 ** Comparatives: More examples
 
     | Adjective   | Example                                                                              |
     |-------------+--------------------------------------------------------------------------------------|
-    | TALL        | My brother _is taller than_  me.                                                     |
-    | YOUNG       | I'm eighteen but my best friend _is younger than_ me; she's seventeen.               |
-    | NICE        | Do you like Lucy? I think Mariela _is nicer than_ she.                               |
-    | INTERESTING | I don't like horror films; I think actions films  _are more interesting than_  them. |
-    | RICH        | Our neighbours _are richer than_ us.                                                 |
-    | OLD         | My uncle is forty-five but my aunt _is older than_ he is.                            |
+    | tall        | My brother _is taller than_  me.                                                     |
+    | young       | I'm eighteen but my best friend _is younger than_ me; she's seventeen.               |
+    | nice        | Do you like Lucy? I think Mariela _is nicer than_ she.                               |
+    | interesting | I don't like horror films; I think actions films  _are more interesting than_  them. |
+    | rich        | Our neighbours _are richer than_ us.                                                 |
+    | old         | My uncle is forty-five but my aunt _is older than_ he is.                            |
 
 ** Comparatives: Irregular adjectives
 
