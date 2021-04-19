@@ -208,23 +208,15 @@
 
 *** Vocabulary: Places in the city
 
-     | Places                     |
-     |----------------------------|
-     | bus station                |
-     | theatre                    |
-     | car park                   |
-     | Tourist Information Office |
-     | museum                     |
-     | art gallery                |
-     | park                       |
-     | square                     |
-     | swimming pool              |
-     | cinema                     |
-     | post office                |
-     | school                     |
-     | bank                       |
-     | town hall                  |
-     | sports centre              |
+#+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "bus station"; "theatre"; "car park"; "Tourist Information Office"; "museum"; "art gallery"; "park";
+    "square"; "swimming pool"; "cinema"; "post office"; "school"; "bank"; "town hall"; "sports centre";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:superlative_examples.svg]]
 
 *** Vocabulary: Directions
 
