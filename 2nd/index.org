@@ -1,0 +1,313 @@
+#+TITLE: To be learnt
+#+SUBTITLE: 2nd Adults
+#+AUTHOR: Nelson Lombardo
+#+EMAIL: nelson.lombardo@gmail.com
+#+DATE: 18th April 2021
+#+KEYWORDS: English Week Adults
+#+LANGUAGE: en
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
+#+LATEX_HEADER: \usepackage[English]{babel}
+#+LATEX_HEADER: \usepackage{soul,color}
+#+LATEX_HEADER: \usepackage[table]{xcolor}
+#+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
+
+* Books
+
+** 2nd Adults
+
+  Speakout Elementary 2nd Edition -> Flexi Course Book 2
+  MyGrammarLab Elementary A1/A2 (Pearson)
+  Reader: "The real McCoy and other ghots stories" Dominoes (One) (Oxford University Press)
+  Writing Booklet
+  Listening Booklet
+
+* Travel Partners [unit 7.1] (pp 68-69)
+
+** Grammar
+
+*** Comparatives
+
+**** Rules
+
+#+BEGIN_SRC dot :file rule_compartive.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR;
+    "Short adjective" -> "fast" [ label = "as" ];
+    "fast" -> "faster" [ label = "adjective + '-er'" ];
+    "Long adjective" -> "comfortable" [ label = "as" ];
+    "comfortable" -> "more comfortable" [ label = "'more' + adjective" ];
+    "Irregular adjective" -> { "good", "bad" } [ label = "as" ];
+    "good" -> "better"; "bad" -> "worse";
+    { "faster", "more comfortable" }  -> "than";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:rule_compartive.svg]]
+    
+**** Basic examples
+
+    - (NICE) :: Beach is _nicer_ than city for a day out.
+    - (COMFORTABLE) :: Trainers are _more comfortable_ than shoes for travelling.
+    - (BAD) :: Travelling by bus is _worse_ than travelling by car on a hot day.
+    - (WARM) :: Madrid _is warmer than_ London.
+    - (EXPENSIVE) :: The Regal Hotel _is more expensive than_ Park Hotel.
+    - (CONSUME) :: I the UK, coffee _is more consume than_ tea.
+    - (NEAR) :: Heathrow Airport _is nearer to_ Central London _than_ Gatwick Airport.
+    - (LONG) :: The Toyota Prius _is longer than_ Toyota Auris.
+    - (EXPENSIVE) :: Sunflowers by Van Gogh _is more expensive than_ Nympheas by Monet.
+
+**** More examples
+
+#+BEGIN_SRC dot :file comparative_more_examples.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; overlap = false;
+    "My brother" -> "is taller than" -> "me."
+    "I'm eighteen but my best friend" -> "is younger than" -> "me; she's seventeen.";
+    "Do you like Lucy? I think Mariela" -> "is nicer than" -> "she.";
+    "I don't like horror films; I think actions films" -> "are more interesting than" -> "them.";
+    "Our neighbours" -> "are richer than" -> "us.";
+    "My uncle is forty-five but my aunt" -> "is older than" -> "he is.";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:comparative_more_examples.svg]]
+
+*** Irregular adjectives
+
+    | Adjective         | Comparative |
+    |-------------------+-------------|
+    | good              | better      |
+    | well (healthy)    | better      |
+    | bad               | worse       |
+    | far               | further     |
+    | old (people)      | elder       |
+
+*** Vocabulary
+
+**** Adjectives
+
+     | Adjective   | Opposite      | Phonetics          |
+     |-------------+---------------+--------------------|
+     | nice        | ugly          | / nīs /            |
+     | hot         | cold          | / hät /            |
+     | fast        | slow          | / fast/            |
+     | crowded     | empty         | / ˈkroudəd /       |
+     | expensive   | cheap         | / ikˈspensiv /     |
+     | comfortable | uncomfortable | / ˈkəmfərdəb(ə)l / |
+     | interesting | boring        | / 'int(ə)rəstiNG / |
+     | quiet       | noisy         | / ˈkwīət /         |
+
+**** Places
+
+     | Places            |
+     |-------------------|
+     | a mountain        |
+     | a hill            |
+     | a lake            |
+     | a forest          |
+     | a village         |
+     | a market          |
+     | a famous building |
+     | a desert          |
+
+*** Travel
+
+#+BEGIN_SRC dot :file travel.svg :cmdline -Kneato -Tsvg
+  digraph { rankdir = LR; overlap = false;
+    "by" -> { "plane", "car", "train" };
+    "in a" -> { "hotel", "self-catering apartment" };
+    "go" -> { "sightseeing", "camping", "surfing", "horse riding", "shopping" };
+    "go to" -> { "a café", "a nightclub", "a restaurant" };
+    "be on" -> { "holiday" };
+    "do" -> { "something" };
+    "in" -> { "spring", "summer" };
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:travel.svg]]
+
+** Miscellaneous
+
+*** Meanings
+
+    | Adjective   | Definition                   |
+    |-------------+------------------------------|
+    | hot         | Having a high temperature    |
+    | crowded     | Containing a lot of people   |
+    | fast        | Quickly                      |
+    | cheap       | Not expensive                |
+    | noisy       | Making a lot of noise        |
+    | cold        | Having a low temperature     |
+    | comfortable | Feeling relaxed              |
+    | interesting | Making you want to know more |
+
+*** Alternatives
+
+   - 1) :: The train was _empty_, so there were lots of free places to sit.
+   - 2) :: My computer is very _slow_ today. Everything is taking a long time.
+   - 3) :: Don't sit in that chain. It's very _uncomfortable_.
+   - 4) :: The lesson was so _boring_ that I fell asleep!
+   - 5) :: Shh! Be _quiet_! There's an exam in that room.
+   - 6) :: It's very _hot_ today. Would you like an ice cream?
+   - 7) :: I really like it, but it's very _expensive_.
+   - 8) :: The _fast_ train is more expensive, but much quicker.
+   - 9) :: It's a great book, really _interesting_.
+   - 10) :: The jacket was quiet _cheap_, it only cost a few euros.
+
+*** Superlatives examples
+
+#+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; overlap = false;
+    "Which's the" -> "fastest" -> "way to travel?";
+    "Which's the" -> "slowest" -> "way to get there?";
+    "Which's the" -> { "most expensive", "cheapest" } -> "form to transport?";
+    "Which's the" -> { "most comfortable" } -> "way to get there?";
+    "Which's the" -> "best" -> "way to get to Ankara?";
+    "Which's the" -> "worst" -> "restaurant in your town?";
+    "What's the" -> "longest" -> "word in this sentence?";
+    "What's the" -> "most difficult" -> "grammar in English?";
+    "Who's the" -> "happiest" -> "person in your family?";
+    "Who's the" -> "friendliest" -> "person in your English class?";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:superlative_examples.svg]]
+
+* The longest bike ride [unit 7.2] (pp 70-71)
+  
+*** Superlatives
+
+**** Rules
+
+#+BEGIN_SRC dot :file rule_superlative.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR;
+    "Short adjective" -> "great" [ label = "as" ];
+    "great" -> "the greatest" [ label = "'the' + adjective + '-est'"];
+    "Long adjective" -> "exciting" [ label = "as" ];
+    "exciting" -> "the most exciting" [ label = "'the most' + adjective "];
+    "Irregular adjective" -> { "good", "bad" } [ label = "as" ];
+    "good" -> "best"; "bad" -> "worst";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:rule_superlative.svg]]
+
+**** Examples
+
+     - 1) :: What was _the coldest_ place you visited?
+
+**** Irregular adjectives
+
+    | Adjective      | Comparative  |
+    |----------------+--------------|
+    | good           | the best     |
+    | well (healthy) | the best     |
+    | bad            | the worst    |
+    | far            | the furthest |
+    | old (people)   | the eldest   |
+       
+* Can you tell me the way? [unit 7.3] (pp. 72-73)
+
+*** Function: Asking for and giving directions
+
+    - Can / Could you tell me the way to ...?
+    - How can I get to ...?
+    - Is there a ... near here?
+    - You can't miss it.
+    - Let me think.
+
+*** Vocabulary
+
+**** Places in the city
+
+     | Places                     |
+     |----------------------------|
+     | bus station                |
+     | theatre                    |
+     | car park                   |
+     | Tourist Information Office |
+     | museum                     |
+     | art gallery                |
+     | park                       |
+     | square                     |
+     | swimming pool              |
+     | cinema                     |
+     | post office                |
+     | school                     |
+     | bank                       |
+     | town hall                  |
+     | sports centre              |
+
+**** Directions
+
+     | Indications                           |
+     |---------------------------------------|
+     | go straight *go* / *ahead*            |
+     | turn right / left                     |
+     | go *up* / *down* / *along* (West St.) |
+     | take the first / second / ...         |
+     | take the next right / left            |
+     | go *past* - *on* (the right - left)   |
+     | opposite                              |
+     | *on* the corner of ...                |
+     | stop / turn ... at                    |
+
+**** Miscellaneous
+
+     |                   |
+     |-------------------|
+     | pedestrian street |
+     | traffic lights    |
+     | crossroads        |
+     | a corner          |
+     | road              |
+
+**** Common phrases
+
+     - When you reach Holmes St.
+     - ... until Holmes St.
+     - ... Finally turn right / left
+     - You can't miss it / Holmes St. is in front of you
+
+* Hong Kong [unit 7.4] (pp. 74-75)
+
+** Vocabulary
+
+   | In general       |
+   |------------------|
+   | skycraper        |
+   | karaoke          |
+   | tram             |
+   | shopping centre  |
+   | a bamboo steamer |
+
+   | Miscellaneous  |
+   |----------------|
+   | challenges     |
+   | rows           |
+   | bamboo baskets |
+   | a walk         |
+   | street food    |
+   | sites          |
+
+** Key phrases
+
+#+BEGIN_SRC dot :file key_phrases_tourists.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR;
+    "It's in the" -> { "north", "south", "west", "east" } -> "of London.";
+    "It's" -> "near ...";
+      "It's" -> "next to ...";
+    "There are lots of ...";
+      "There are lots of" -> "some ...";
+    "One of the most important places in ... is ...";
+    "Most tourist don't know about it but...";
+    "Here you can" -> { "see ...", "eat ...", "find ..." };
+    "Tourists" -> { "don't usually", "often" } -> { "go there.", "do that." };
+    "It's" -> { "the best", "one of the best", "a good" } -> { "place ", "places" } -> "you can ... there.";
+      { "place ", "places" } -> "to ...";
+    "It's really" -> { "interesting ...", "delicious ...", "fun ...", "quiet ...", "beaufiul ..." };
+   }
+#+END_SRC
