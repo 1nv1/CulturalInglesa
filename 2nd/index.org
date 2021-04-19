@@ -25,7 +25,7 @@
 
 ** Comparatives: Rules
 
-#+BEGIN_SRC dot :file rule_compartive.svg :cmdline -Kdot -Tsvg
+#+BEGIN_SRC dot :file ./img/u71_comparatives_rules.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "Short adjective" -> "fast" [ label = "as" ];
     "fast" -> "faster" [ label = "adjective + '-er'" ];
@@ -91,7 +91,7 @@
 
 ** Vocabulary: Places
 
-#+BEGIN_SRC dot :file vocabulay_places.svg :cmdline -Kdot -Tsvg
+#+BEGIN_SRC dot :file ./img/u71_vocabulary_places.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
     "a mountain";
     "a hill";        
@@ -109,7 +109,7 @@
 
 ** Vocabulary: Travel
 
-#+BEGIN_SRC dot :file travel.svg :cmdline -Kcirco -Tsvg
+#+BEGIN_SRC dot :file ./img/u71_travel.svg :cmdline -Kcirco -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
     "by" -> { "plane", "car", "train" };
     "in a" -> { "hotel", "self-catering apartment" };
@@ -154,7 +154,7 @@
   
 ** Superlatives: Rules
 
-#+BEGIN_SRC dot :file rule_superlative.svg :cmdline -Kdot -Tsvg
+#+BEGIN_SRC dot :file ./img/u72_superlatives_rules.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "Short adjective" -> "great" [ label = "as" ];
     "great" -> "the greatest" [ label = "'the' + adjective + '-est'"];
@@ -170,7 +170,7 @@
 
 ** Superlatives: Examples
 
-#+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kdot -Tsvg
+#+BEGIN_SRC dot :file ./img/u72_superlatives_examples.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "Which's the" -> "fastest" -> "way to travel?";
     "Which's the" -> "slowest" -> "way to get there?";
@@ -198,7 +198,7 @@
        
 * Can you tell me the way? [unit 7.3]
 
-*** Function: Asking for and giving directions
+** Function: Asking for and giving directions
 
     - Can / Could you tell me the way to ...?
     - How can I get to ...?
@@ -206,17 +206,25 @@
     - You can't miss it.
     - Let me think.
 
-*** Vocabulary: Places in the city
+** Vocabulary: Places in the city
 
-#+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kcirco -Tsvg
-  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
-    "bus station"; "theatre"; "car park"; "Tourist Information Office"; "museum"; "art gallery"; "park";
-    "square"; "swimming pool"; "cinema"; "post office"; "school"; "bank"; "town hall"; "sports centre";
-  }
-#+END_SRC
-
-#+RESULTS:
-[[file:superlative_examples.svg]]
+   | Place                      | Phonetics                       | Traduction                      |
+   |----------------------------+---------------------------------+---------------------------------|
+   | bus station                | / ˈbəs ˌstāSHən /               | estación de colectivos          |
+   | theatre                    | /ˈθɪətə /                       | teatro                          |
+   | car park                   | / kɑː pɑːk /                    | estacionamiento                 |
+   | Tourist Information Office | / ˈtʊərɪst ˌɪnfəˈmeɪʃən ˈɒfɪs / | oficina de infomación turística |
+   | museum                     | / mju(ː)ˈzɪəm /                 | museo                           |
+   | art gallery                | / ɑːt ˈgæləri /                 | galería de arte                 |
+   | park                       | / pɑːk /                        | parque                          |
+   | square                     | / skweə  /                      | plaza                           |
+   | swimming pool              | / ˈswɪmɪŋ puːl /                | pileta de natación              |
+   | cinema                     | / ˈsɪnəmə /                     | cine                            |
+   | post office                | / pəʊst ˈɒfɪs /                 | oficina postal                  |
+   | school                     | / skuːl /                       | escuela                         |
+   | bank                       | / bæŋk /                        | banco                           |
+   | town hall                  | / taʊn hɔːl /                   | municipalidad                   |
+   | sports centre              | / spɔːts ˈsɛntə  /              | centro de deportes              |
 
 *** Vocabulary: Directions
 
@@ -253,24 +261,28 @@
 
 ** Vocabulary: General
 
-   | skycraper        |
-   | karaoke          |
-   | tram             |
-   | shopping centre  |
-   | a bamboo steamer |
+   | Word             | Phonetics | Traduction                  |
+   |------------------+-----------+-----------------------------|
+   | skycraper        |           | rascacielos                 |
+   | karaoke          |           | sitio o máquina para cantar |
+   | tram             |           | tranvía                     |
+   | shopping centre  |           | centro comercial            |
+   | a bamboo steamer |           | una vaporera de bambú       |
 
 ** Vocabulary: Miscellaneous
-   
-   | challenges     |
-   | rows           |
-   | bamboo baskets |
-   | a walk         |
-   | street food    |
-   | sites          |
+
+   | Word           | Phonetics | Traduction |
+   |----------------+-----------+------------|
+   | challenges     |           |            |
+   | rows           |           |            |
+   | bamboo baskets |           |            |
+   | a walk         |           |            |
+   | street food    |           |            |
+   | sites          |           |            |
 
 ** Vocabulary: Key phrases
 
-#+BEGIN_SRC dot :file key_phrases_tourists.svg :cmdline -Kdot -Tsvg
+#+BEGIN_SRC dot :file ./img/u74_vocabulary_key_phrases.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "It's in the" -> { "north", "south", "west", "east" } -> "of London.";
     "It's" -> "near ...";
@@ -284,8 +296,5 @@
     "It's" -> { "the best", "one of the best", "a good" } -> { "place ", "places" } -> "you can ... there.";
       { "place ", "places" } -> "to ...";
     "It's really" -> { "interesting ...", "delicious ...", "fun ...", "quiet ...", "beaufiul ..." };
-   }
+ }
 #+END_SRC
-
-#+RESULTS:
-[[file:key_phrases_tourists.svg]]
