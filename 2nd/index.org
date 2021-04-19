@@ -91,21 +91,16 @@
 
 ** Vocabulary: Places
 
-#+BEGIN_SRC dot :file ./img/u71_vocabulary_places.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
-    "a mountain";
-    "a hill";        
-    "a lake";
-    "a forest";
-    "a village";
-    "a market";
-    "a famous building";
-    "a desert";
-  }
-#+END_SRC
-
-#+RESULTS:
-[[file:vocabulay_places.svg]]
+   | Places            | Phonetics | Traduction             |
+   |-------------------+-----------+------------------------|
+   | a mountain        |           | una montaña            |
+   | a hill            |           | una colina             |
+   | a lake            |           | un lago                |
+   | a forest          |           | un bosque              |
+   | a village         |           | una villa              |
+   | a market          |           | un mercado             |
+   | a famous building |           | una edificación famosa |
+   | a desert          |           | un desierto            |
 
 ** Vocabulary: Travel
 
