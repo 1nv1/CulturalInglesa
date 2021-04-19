@@ -9,6 +9,8 @@
 #+LATEX_HEADER: \usepackage[English]{babel}
 #+LATEX_HEADER: \usepackage{soul,color}
 #+LATEX_HEADER: \usepackage[table]{xcolor}
+#+LATEX_HEADER: \setcounter{secnumdepth}{0}
+#+OPTIONS: num:nil
 #+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
 
 * Books
@@ -21,7 +23,7 @@
   Writing Booklet
   Listening Booklet
 
-* Travel Partners [unit 7.1] (pp 68-69)
+* Travel Partners [unit 7.1]
 
 ** Grammar
 
@@ -30,7 +32,7 @@
 **** Rules
 
 #+BEGIN_SRC dot :file rule_compartive.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR;
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "Short adjective" -> "fast" [ label = "as" ];
     "fast" -> "faster" [ label = "adjective + '-er'" ];
     "Long adjective" -> "comfortable" [ label = "as" ];
@@ -58,19 +60,15 @@
 
 **** More examples
 
-#+BEGIN_SRC dot :file comparative_more_examples.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR; overlap = false;
-    "My brother" -> "is taller than" -> "me."
-    "I'm eighteen but my best friend" -> "is younger than" -> "me; she's seventeen.";
-    "Do you like Lucy? I think Mariela" -> "is nicer than" -> "she.";
-    "I don't like horror films; I think actions films" -> "are more interesting than" -> "them.";
-    "Our neighbours" -> "are richer than" -> "us.";
-    "My uncle is forty-five but my aunt" -> "is older than" -> "he is.";
-  }
-#+END_SRC
 
-#+RESULTS:
-[[file:comparative_more_examples.svg]]
+    | Adjective   | Example                                                                              |
+    |-------------+--------------------------------------------------------------------------------------|
+    | TALL        | My brother _is taller than_  me.                                                     |
+    | YOUNG       | I'm eighteen but my best friend _is younger than_ me; she's seventeen.               |
+    | NICE        | Do you like Lucy? I think Mariela _is nicer than_ she.                               |
+    | INTERESTING | I don't like horror films; I think actions films  _are more interesting than_  them. |
+    | RICH        | Our neighbours _are richer than_ us.                                                 |
+    | OLD         | My uncle is forty-five but my aunt _is older than_ he is.                            |
 
 *** Irregular adjectives
 
@@ -113,7 +111,7 @@
 *** Travel
 
 #+BEGIN_SRC dot :file travel.svg :cmdline -Kneato -Tsvg
-  digraph { rankdir = LR; overlap = false;
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
     "by" -> { "plane", "car", "train" };
     "in a" -> { "hotel", "self-catering apartment" };
     "go" -> { "sightseeing", "camping", "surfing", "horse riding", "shopping" };
@@ -158,7 +156,7 @@
 *** Superlatives examples
 
 #+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR; overlap = false;
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "Which's the" -> "fastest" -> "way to travel?";
     "Which's the" -> "slowest" -> "way to get there?";
     "Which's the" -> { "most expensive", "cheapest" } -> "form to transport?";
@@ -175,14 +173,12 @@
 #+RESULTS:
 [[file:superlative_examples.svg]]
 
-* The longest bike ride [unit 7.2] (pp 70-71)
+* The longest bike ride [unit 7.2]
   
-*** Superlatives
-
-**** Rules
+*** Superlatives: Rules
 
 #+BEGIN_SRC dot :file rule_superlative.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR;
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "Short adjective" -> "great" [ label = "as" ];
     "great" -> "the greatest" [ label = "'the' + adjective + '-est'"];
     "Long adjective" -> "exciting" [ label = "as" ];
@@ -195,11 +191,11 @@
 #+RESULTS:
 [[file:rule_superlative.svg]]
 
-**** Examples
+*** Superlatives: Examples
 
-     - 1) :: What was _the coldest_ place you visited?
+  - 1) :: What was _the coldest_ place you visited?
 
-**** Irregular adjectives
+*** Superlatives: Irregular adjectives
 
     | Adjective      | Comparative  |
     |----------------+--------------|
@@ -209,7 +205,7 @@
     | far            | the furthest |
     | old (people)   | the eldest   |
        
-* Can you tell me the way? [unit 7.3] (pp. 72-73)
+* Can you tell me the way? [unit 7.3]
 
 *** Function: Asking for and giving directions
 
@@ -272,7 +268,7 @@
      - ... Finally turn right / left
      - You can't miss it / Holmes St. is in front of you
 
-* Hong Kong [unit 7.4] (pp. 74-75)
+* Hong Kong [unit 7.4]
 
 ** Vocabulary
 
@@ -296,7 +292,7 @@
 ** Key phrases
 
 #+BEGIN_SRC dot :file key_phrases_tourists.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR;
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "It's in the" -> { "north", "south", "west", "east" } -> "of London.";
     "It's" -> "near ...";
       "It's" -> "next to ...";
@@ -311,3 +307,6 @@
     "It's really" -> { "interesting ...", "delicious ...", "fun ...", "quiet ...", "beaufiul ..." };
    }
 #+END_SRC
+
+#+RESULTS:
+[[file:key_phrases_tourists.svg]]

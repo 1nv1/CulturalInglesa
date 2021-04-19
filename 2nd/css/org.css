@@ -9,7 +9,7 @@ body {
     color: #000;
     font-family: "Open Sans", "Bitstream Vera Sans", "Verdana", sans-serif;
     line-height: 1.4em;
-    font-size: 90%;
+    font-size: 1.2em;
 }
 
 code {
@@ -102,7 +102,7 @@ h1 {
     background: #369 none repeat scroll 0 0;
     font-family: "Cardo", "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: #fff;
-    font-size: 230%;
+    font-size: 250%;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin: -1em -1em .2em;
@@ -110,21 +110,21 @@ h1 {
 }
 
 h2 {
-    font-size: 200%;
+    font-size: 225%;
     font-family: "Cardo", "Palatino Linotype", "Book Antiqua", Palatino, serif;
     border-bottom: 1px solid #ccc;
     padding: .2em;
 }
 
 h3 {
-    font-size: 170%;
+    font-size: 200%;
     font-family: "Cardo", "Palatino Linotype", "Book Antiqua", Palatino, serif;
     border-bottom: 1px solid #eee;
     padding: .2em;
 }
 
 h4 {
-    font-size: 140%;
+    font-size: 175%;
     font-family: "Cardo", "Palatino Linotype", "Book Antiqua", Palatino, serif;
     border-bottom: 1px solid #eee;
     padding: .2em;
