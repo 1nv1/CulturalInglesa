@@ -78,16 +78,16 @@
 
 ** Vocabulary: Adjectives
 
-    | Adjective   | Opposite      | Phonetics          |
-    |-------------+---------------+--------------------|
-    | nice        | ugly          | / nīs /            |
-    | hot         | cold          | / hät /            |
-    | fast        | slow          | / fast/            |
-    | crowded     | empty         | / ˈkroudəd /       |
-    | expensive   | cheap         | / ikˈspensiv /     |
-    | comfortable | uncomfortable | / ˈkəmfərdəb(ə)l / |
-    | interesting | boring        | / 'int(ə)rəstiNG / |
-    | quiet       | noisy         | / ˈkwīət /         |
+    | Adjective (Phonetics)            | Opposite      |
+    |----------------------------------+---------------|
+    | nice (/ nīs /)                   | ugly          |
+    | hot (/ hät /)                    | cold          |
+    | fast (/ fast/)                   | slow          |
+    | crowded (/ ˈkroudəd /)           | empty         |
+    | expensive (/ ikˈspensiv /)       | cheap         |
+    | comfortable (/ ˈkəmfərdəb(ə)l /) | uncomfortable |
+    | interesting (/ 'int(ə)rəstiNG /) | boring        |
+    | quiet (/ ˈkwīət /)               | noisy         |
 
 ** Vocabulary: Places
 
