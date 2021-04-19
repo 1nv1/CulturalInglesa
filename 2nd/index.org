@@ -15,13 +15,11 @@
 
 * Books
 
-** 2nd Adults
-
-  Speakout Elementary 2nd Edition -> Flexi Course Book 2
-  MyGrammarLab Elementary A1/A2 (Pearson)
-  Reader: "The real McCoy and other ghots stories" Dominoes (One) (Oxford University Press)
-  Writing Booklet
-  Listening Booklet
+  - Speakout Elementary 2nd Edition (Flexi Course Book 2)
+  - MyGrammarLab Elementary A1/A2 (Pearson)
+  - Reader: "The real McCoy and other ghots stories" Dominoes (One) (Oxford University Press)
+  - Writing Booklet
+  - Listening Booklet
 
 * Travel Partners [unit 7.1]
 
@@ -80,37 +78,40 @@
     | far               | further     |
     | old (people)      | elder       |
 
-*** Vocabulary
+*** Vocabulary: Adjectives
 
-**** Adjectives
+    | Adjective   | Opposite      | Phonetics          |
+    |-------------+---------------+--------------------|
+    | nice        | ugly          | / nīs /            |
+    | hot         | cold          | / hät /            |
+    | fast        | slow          | / fast/            |
+    | crowded     | empty         | / ˈkroudəd /       |
+    | expensive   | cheap         | / ikˈspensiv /     |
+    | comfortable | uncomfortable | / ˈkəmfərdəb(ə)l / |
+    | interesting | boring        | / 'int(ə)rəstiNG / |
+    | quiet       | noisy         | / ˈkwīət /         |
 
-     | Adjective   | Opposite      | Phonetics          |
-     |-------------+---------------+--------------------|
-     | nice        | ugly          | / nīs /            |
-     | hot         | cold          | / hät /            |
-     | fast        | slow          | / fast/            |
-     | crowded     | empty         | / ˈkroudəd /       |
-     | expensive   | cheap         | / ikˈspensiv /     |
-     | comfortable | uncomfortable | / ˈkəmfərdəb(ə)l / |
-     | interesting | boring        | / 'int(ə)rəstiNG / |
-     | quiet       | noisy         | / ˈkwīət /         |
+*** Vocabulary: Places
 
-**** Places
+#+BEGIN_SRC dot :file vocabulay_places.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "a mountain";
+    "a hill";        
+    "a lake";
+    "a forest";
+    "a village";
+    "a market";
+    "a famous building";
+    "a desert";
+  }
+#+END_SRC
 
-     | Places            |
-     |-------------------|
-     | a mountain        |
-     | a hill            |
-     | a lake            |
-     | a forest          |
-     | a village         |
-     | a market          |
-     | a famous building |
-     | a desert          |
+#+RESULTS:
+[[file:vocabulay_places.svg]]
 
 *** Travel
 
-#+BEGIN_SRC dot :file travel.svg :cmdline -Kneato -Tsvg
+#+BEGIN_SRC dot :file travel.svg :cmdline -Kcirco -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
     "by" -> { "plane", "car", "train" };
     "in a" -> { "hotel", "self-catering apartment" };
