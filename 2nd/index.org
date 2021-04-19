@@ -23,9 +23,7 @@
 
 * Travel Partners [unit 7.1]
 
-** Grammar
-
-*** Comparatives: Rules
+** Comparatives: Rules
 
 #+BEGIN_SRC dot :file rule_compartive.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
@@ -43,7 +41,7 @@
 #+RESULTS:
 [[file:rule_compartive.svg]]
     
-*** Comparatives: Basic examples
+** Comparatives: Basic examples
 
     | Adjective   | Example                                                                |
     |-------------+------------------------------------------------------------------------|
@@ -57,7 +55,7 @@
     | LONG        | The Toyota Prius _is longer than_ Toyota Auris.                        |
     | EXPENSIVE   | Sunflowers by Van Gogh _is more expensive than_ Nympheas by Monet.     |
 
-*** Comparatives: More examples
+** Comparatives: More examples
 
     | Adjective   | Example                                                                              |
     |-------------+--------------------------------------------------------------------------------------|
@@ -68,7 +66,7 @@
     | RICH        | Our neighbours _are richer than_ us.                                                 |
     | OLD         | My uncle is forty-five but my aunt _is older than_ he is.                            |
 
-*** Irregular adjectives
+** Comparatives: Irregular adjectives
 
     | Adjective         | Comparative |
     |-------------------+-------------|
@@ -78,7 +76,7 @@
     | far               | further     |
     | old (people)      | elder       |
 
-*** Vocabulary: Adjectives
+** Vocabulary: Adjectives
 
     | Adjective   | Opposite      | Phonetics          |
     |-------------+---------------+--------------------|
@@ -91,7 +89,7 @@
     | interesting | boring        | / 'int(ə)rəstiNG / |
     | quiet       | noisy         | / ˈkwīət /         |
 
-*** Vocabulary: Places
+** Vocabulary: Places
 
 #+BEGIN_SRC dot :file vocabulay_places.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
@@ -109,7 +107,7 @@
 #+RESULTS:
 [[file:vocabulay_places.svg]]
 
-*** Travel
+** Vocabulary: Travel
 
 #+BEGIN_SRC dot :file travel.svg :cmdline -Kcirco -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
@@ -126,9 +124,7 @@
 #+RESULTS:
 [[file:travel.svg]]
 
-** Miscellaneous
-
-*** Meanings
+** Vocabulary: Meanings
 
     | Adjective   | Definition                   |
     |-------------+------------------------------|
@@ -141,7 +137,7 @@
     | comfortable | Feeling relaxed              |
     | interesting | Making you want to know more |
 
-*** Alternatives
+** Vocabulary: Phrases
 
    - 1) :: The train was _empty_, so there were lots of free places to sit.
    - 2) :: My computer is very _slow_ today. Everything is taking a long time.
@@ -154,29 +150,9 @@
    - 9) :: It's a great book, really _interesting_.
    - 10) :: The jacket was quiet _cheap_, it only cost a few euros.
 
-*** Superlatives examples
-
-#+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
-    "Which's the" -> "fastest" -> "way to travel?";
-    "Which's the" -> "slowest" -> "way to get there?";
-    "Which's the" -> { "most expensive", "cheapest" } -> "form to transport?";
-    "Which's the" -> { "most comfortable" } -> "way to get there?";
-    "Which's the" -> "best" -> "way to get to Ankara?";
-    "Which's the" -> "worst" -> "restaurant in your town?";
-    "What's the" -> "longest" -> "word in this sentence?";
-    "What's the" -> "most difficult" -> "grammar in English?";
-    "Who's the" -> "happiest" -> "person in your family?";
-    "Who's the" -> "friendliest" -> "person in your English class?";
-  }
-#+END_SRC
-
-#+RESULTS:
-[[file:superlative_examples.svg]]
-
 * The longest bike ride [unit 7.2]
   
-*** Superlatives: Rules
+** Superlatives: Rules
 
 #+BEGIN_SRC dot :file rule_superlative.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
@@ -192,11 +168,25 @@
 #+RESULTS:
 [[file:rule_superlative.svg]]
 
-*** Superlatives: Examples
+** Superlatives: Examples
 
-  - 1) :: What was _the coldest_ place you visited?
+#+BEGIN_SRC dot :file superlative_examples.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "Which's the" -> "fastest" -> "way to travel?";
+    "Which's the" -> "slowest" -> "way to get there?";
+    "Which's the" -> { "most expensive", "cheapest" } -> "form to transport?";
+    "Which's the" -> { "most comfortable" } -> "way to get there?";
+    "Which's the" -> "best" -> "way to get to Ankara?";
+    "Which's the" -> "worst" -> "restaurant in your town?";
+    "What's the" -> "longest" -> "word in this sentence?";
+    "What's the" -> "most difficult" -> "grammar in English?";
+    "Who's the" -> "happiest" -> "person in your family?";
+    "Who's the" -> "friendliest" -> "person in your English class?";
+    "What was the" -> "coldest" -> "place you visited?";
+  }
+#+END_SRC
 
-*** Superlatives: Irregular adjectives
+** Superlatives: Irregular adjectives
 
     | Adjective      | Comparative  |
     |----------------+--------------|
@@ -216,9 +206,7 @@
     - You can't miss it.
     - Let me think.
 
-*** Vocabulary
-
-**** Places in the city
+*** Vocabulary: Places in the city
 
      | Places                     |
      |----------------------------|
@@ -238,7 +226,7 @@
      | town hall                  |
      | sports centre              |
 
-**** Directions
+*** Vocabulary: Directions
 
      | Indications                           |
      |---------------------------------------|
@@ -252,7 +240,7 @@
      | *on* the corner of ...                |
      | stop / turn ... at                    |
 
-**** Miscellaneous
+*** Vocabulary: Miscellaneous
 
      |                   |
      |-------------------|
@@ -271,18 +259,16 @@
 
 * Hong Kong [unit 7.4]
 
-** Vocabulary
+** Vocabulary: General
 
-   | In general       |
-   |------------------|
    | skycraper        |
    | karaoke          |
    | tram             |
    | shopping centre  |
    | a bamboo steamer |
 
-   | Miscellaneous  |
-   |----------------|
+** Vocabulary: Miscellaneous
+   
    | challenges     |
    | rows           |
    | bamboo baskets |
@@ -290,7 +276,7 @@
    | street food    |
    | sites          |
 
-** Key phrases
+** Vocabulary: Key phrases
 
 #+BEGIN_SRC dot :file key_phrases_tourists.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
