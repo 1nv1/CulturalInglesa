@@ -23,19 +23,19 @@
     "irregular\nverb" -> "eat" [ label = "as" ];
       "eat" -> "I ate pizza." [ label = "positive" ];
       "eat" -> "I didn't eat pizza." [ label = "negative" ];
-      "eat" -> "Did you eat pizza." [ label = "question" ];
+      "eat" -> "Did you eat pizza?" [ label = "question" ];
     "irregular\nverb" -> "go" [ label = "as" ];
       "go" -> "I went fishing." [ label = "positive" ];
       "go" -> "I didn't go fishing." [ label = "negative" ];
-      "go" -> "Did you go fishing." [ label = "question" ];
+      "go" -> "Did you go fishing?" [ label = "question" ];
     "regular\nverb" -> "watch" [ label = "as" ];
       "watch" -> "I watched TV." [label = "positive" ];
       "watch" -> "I didn't watch TV." [label = "negative" ];
-      "watch" -> "Did you watch TV." [label = "question" ];
+      "watch" -> "Did you watch TV?" [label = "question" ];
     "regular\nverb" -> "play" [ label = "as" ];
       "play" -> "I played videogames." [label = "positive" ];
       "play" -> "I didn't play videogames." [label = "negative" ];
-      "play" -> "Did you play videogames." [label = "question" ];
+      "play" -> "Did you play videogames?" [label = "question" ];
   }
 #+END_SRC
 
