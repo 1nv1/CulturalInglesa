@@ -71,9 +71,6 @@
     19. I _didn't see_ the film you recommend. I don't have time.
     20. _Did_ you _buy_ the oranges for the fruit salad?
      
-#+RESULTS:
-[[file:./img/u_simple_past_rules.svg]]
-
 ** Regular verbs: Examples
 
    | Verb   | Simple past |
