@@ -13,11 +13,7 @@
 #+OPTIONS: num:nil
 #+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
 
-* Books
-
-  - Speakout Elementary 2nd Edition (Flexi Course Book 2)
-
-* Past Simple
+* Simple Past
 
 ** Regular verbs: Examples
 
