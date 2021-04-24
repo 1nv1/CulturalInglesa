@@ -1,0 +1,118 @@
+#+TITLE: To be learnt
+#+SUBTITLE: 1st Adults
+#+AUTHOR: Nelson Lombardo
+#+EMAIL: nelson.lombardo@gmail.com
+#+DATE: 18th April 2021
+#+KEYWORDS: English Week Adults
+#+LANGUAGE: en
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
+#+LATEX_HEADER: \usepackage[English]{babel}
+#+LATEX_HEADER: \usepackage{soul,color}
+#+LATEX_HEADER: \usepackage[table]{xcolor}
+#+LATEX_HEADER: \setcounter{secnumdepth}{0}
+#+OPTIONS: num:nil
+#+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
+
+* Books
+
+  - Speakout Elementary 2nd Edition (Flexi Course Book 2)
+
+* Past Simple
+
+** Regular verbs: Examples
+
+   | Verb   | Simple past |
+   |--------+-------------|
+   | finish | finished    |
+   | marry  | married     |
+   | paint  | painted     |
+   | start  | started     |
+   | study  | studied     |
+   | work   | worked      |
+   
+** Irregular verbs: List
+
+   | Verb       | Simple past      | Past participle  | Traduction     | Phonetics (my)  |
+   |------------+------------------+------------------+----------------+-----------------|
+   | be         | was              | been             | ser o estar    | / bi /          |
+   | become     | became           | become           | convertirse    | / biˈkom /      |
+   | begin      | began            | begun            | empezar        | / bi'guen /     |
+   | bite       | bit              | bitten           | morder         | / bait /        |
+   | blow       | blew             | blown            | soplar         | / blou /        |
+   | break      | broke            | broken           | rotura         | / breik /       |
+   | bring      | brought          | brought          | traer          | / bring /       |
+   | build      | built            | built            | construir      | / bild /        |
+   | buy        | bought           | bought           | comprar        | / bai /         |
+   | catch      | caught           | caught           | captura        | / kach /        |
+   | choose     | chose            | chosen           | elegir         | / chuuz /       |
+   | come       | came             | come             | venir          | / kom /         |
+   | cost       | cost             | cost             | costo          | / kos:t/        |
+   | cut        | cut              | cut              | cortar         | / kut /         |
+   | do         | did              | done             | hacer          | / duu /         |
+   | draw       | drew             | drawn            | dibujar        | / droa /        |
+   | drink      | drank            | drunk            | beber          | / dringk /      |
+   | drive      | drove            | driven           | manejar        | / draif /       |
+   | eat        | ate              | eaten            | comer          | / i:t /         |
+   | fall       | fell             | fallen           | caer           | / fa_ol /       |
+   | feel       | felt             | felt             | sentir         | /  fi_el /      |
+   | find       | found            | found            | buscar         | / faind /       |
+   | fly        | flew             | flown            | volar          | / flai: /       |
+   | forget     | forgot           | gorgotten        | olvidar        | / fer_get /     |
+   | freeze     | froze            | frozen           | congelar       | / fri:z /       |
+   | get        | got              | got              | obtener        | / guet /        |
+   | give       | gave             | given            | dar            | / guif /        |
+   | go         | went             | gone             | ir             | / gou /         |
+   | grow       | grew             | grown            | crecer         | / grou: /       |
+   | have       | had              | had              | tengo          | / ja:f /        |
+   | hear       | heard            | heard            | escuchar       | / ji:er /       |
+   | hide       | hid              | hidden           | esconder       | / jai:d /       |
+   | hit        | hit              | hit              | pegar          | / je:t /        |
+   | hold       | held             | held             | mantener       | / jo:ld /       |
+   | hurt       | hurt             | hurt             | herida / daño  | / je:rt /       |
+   | keep       | kept             | kept             | mantenerse     | / ki:p /        |
+   | know       | knew             | known            | saber          | / no:u /        |
+   | learn      | learned / learnt | learned / learnt | aprender       | / le:rn /       |
+   | leave      | left             | left             | irse           | / li:fv /       |
+   | lend       | lent             | lent             | prestar        | / lend /        |
+   | let        | let              | let              | dejar          | / let /         |
+   | lie        | lay              | lain             | mentir         | / lai: /        |
+   | lose       | lost             | lost             | perder         | / lo:z /        |
+   | make       | made             | made             | fabricar       | / maik /        |
+   | mean       | meant            | meant            | querer decir   | / mi:n /        |
+   | meet       | met              | met              | reunirse       | / mi:t /        |
+   | pay        | paid             | paid             | pagar          | / pai: /        |
+   | put        | put              | put              | poner          | / po:t /        |
+   | read       | read             | read             | leer           | / ri:dt /       |
+   | ride       | rode             | ridden           | montar         | / rai:dt /      |
+   | ring       | rang             | rung             | sonar / llamar | / ri:ng /       |
+   | run        | ran              | run              | correr         | / ra:unn /      |
+   | say        | said             | said             | decir          | / sei: /        |
+   | see        | saw              | seen             | ver            | / si: /         |
+   | sell       | sold             | sold             | vender         | / se:l /        |
+   | send       | sent             | sent             | enviar         | / se:nd /       |
+   | shine      | shone            | shone            | brillar        | / sh_ain /      |
+   | show       | showed           | shown            | mostrar        | / sh_ou /       |
+   | shut       | shut             | shut             | cerrar         | / sh_at /       |
+   | sing       | sang             | sung             | cantar         | / s:ing /       |
+   | sit        | sat              | sat              | sentar         | / se:t /        |
+   | sleep      | slept            | slept            | dormir         | / s:lipt /      |
+   | smell      | smelled/smelt    | smelled/smelt    | oler           | / s:mel /       |
+   | speak      | spoke            | spoken           | hablar         | / s:pik /       |
+   | spend      | spent            | spent            | gastar         | / s:pend /      |
+   | spill      | spilled / spilt  | spilled / spilt  | derramar       | / s:peld /      |
+   | stand      | stood            | stood            | aguantar       | / s:teand /     |
+   | swim       | swam             | swum             | nadar          | / s:uim /       |
+   | take       | took             | taken            | tomar          | / teik /        |
+   | teach      | taught           | taught           | enseñar        | / ti:CH /       |
+   | tell       | told             | told             | contar / decir | / te_al /       |
+   | think      | thought          | thought          | pensar         | / zi:nk /       |
+   | throw      | threw            | thrown           | tirar / lanzar | / ztrou /       |
+   | understand | understood       | understood       | entender       | / unders_tend / |
+   | wake       | woke             | woken            | despertar      | / waik /        |
+   | wear       | wore             | worn             | usar / vestir  | / we:r /        |
+   | win        | won              | won              | ganar          | / we:n /        |
+   | write      | wrote            | written          | escribir       | / wrait /       |
+
+
+
+

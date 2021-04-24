@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-04-24 Sat 11:36 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>To be learnt</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Nelson Lombardo" />
+<meta name="keywords" content="English Week Adults" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="./css/org.css" type="text/css" />
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">To be learnt
+<br />
+<span class="subtitle">1st Adults</span>
+</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org0cfdf34">Books</a></li>
+<li><a href="#orge8fc253">Past Simple</a>
+<ul>
+<li><a href="#org10a3740">Regular verbs: Examples</a></li>
+<li><a href="#orgb2c6e83">Irregular verbs: List</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0cfdf34" class="outline-2">
+<h2 id="org0cfdf34">Books</h2>
+<div class="outline-text-2" id="text-org0cfdf34">
+<ul class="org-ul">
+<li>Speakout Elementary 2nd Edition (Flexi Course Book 2)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge8fc253" class="outline-2">
+<h2 id="orge8fc253">Past Simple</h2>
+<div class="outline-text-2" id="text-orge8fc253">
+</div>
+<div id="outline-container-org10a3740" class="outline-3">
+<h3 id="org10a3740">Regular verbs: Examples</h3>
+<div class="outline-text-3" id="text-org10a3740">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Verb</th>
+<th scope="col" class="org-left">Simple past</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">paint</td>
+<td class="org-left">painted</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgb2c6e83" class="outline-3">
+<h3 id="orgb2c6e83">Irregular verbs: List</h3>
+<div class="outline-text-3" id="text-orgb2c6e83">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Verb</th>
+<th scope="col" class="org-left">Simple past</th>
+<th scope="col" class="org-left">Past participle</th>
+<th scope="col" class="org-left">Traduction</th>
+<th scope="col" class="org-left">Phonetics (my)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">be</td>
+<td class="org-left">was</td>
+<td class="org-left">been</td>
+<td class="org-left">ser o estar</td>
+<td class="org-left">/ bi /</td>
+</tr>
+
+<tr>
+<td class="org-left">become</td>
+<td class="org-left">became</td>
+<td class="org-left">become</td>
+<td class="org-left">convertirse</td>
+<td class="org-left">/ biˈkom /</td>
+</tr>
+
+<tr>
+<td class="org-left">begin</td>
+<td class="org-left">began</td>
+<td class="org-left">begun</td>
+<td class="org-left">empezar</td>
+<td class="org-left">/ bi'guen /</td>
+</tr>
+
+<tr>
+<td class="org-left">bite</td>
+<td class="org-left">bit</td>
+<td class="org-left">bitten</td>
+<td class="org-left">morder</td>
+<td class="org-left">/ bait /</td>
+</tr>
+
+<tr>
+<td class="org-left">blow</td>
+<td class="org-left">blew</td>
+<td class="org-left">blown</td>
+<td class="org-left">soplar</td>
+<td class="org-left">/ blou /</td>
+</tr>
+
+<tr>
+<td class="org-left">break</td>
+<td class="org-left">broke</td>
+<td class="org-left">broken</td>
+<td class="org-left">rotura</td>
+<td class="org-left">/ breik /</td>
+</tr>
+
+<tr>
+<td class="org-left">bring</td>
+<td class="org-left">brought</td>
+<td class="org-left">brought</td>
+<td class="org-left">traer</td>
+<td class="org-left">/ bring /</td>
+</tr>
+
+<tr>
+<td class="org-left">build</td>
+<td class="org-left">built</td>
+<td class="org-left">built</td>
+<td class="org-left">construir</td>
+<td class="org-left">/ bild /</td>
+</tr>
+
+<tr>
+<td class="org-left">buy</td>
+<td class="org-left">bought</td>
+<td class="org-left">bought</td>
+<td class="org-left">comprar</td>
+<td class="org-left">/ bai /</td>
+</tr>
+
+<tr>
+<td class="org-left">catch</td>
+<td class="org-left">caught</td>
+<td class="org-left">caught</td>
+<td class="org-left">captura</td>
+<td class="org-left">/ kach /</td>
+</tr>
+
+<tr>
+<td class="org-left">choose</td>
+<td class="org-left">chose</td>
+<td class="org-left">chosen</td>
+<td class="org-left">elegir</td>
+<td class="org-left">/ chuuz /</td>
+</tr>
+
+<tr>
+<td class="org-left">come</td>
+<td class="org-left">came</td>
+<td class="org-left">come</td>
+<td class="org-left">venir</td>
+<td class="org-left">/ kom /</td>
+</tr>
+
+<tr>
+<td class="org-left">cost</td>
+<td class="org-left">cost</td>
+<td class="org-left">cost</td>
+<td class="org-left">costo</td>
+<td class="org-left">/ kos:t/</td>
+</tr>
+
+<tr>
+<td class="org-left">cut</td>
+<td class="org-left">cut</td>
+<td class="org-left">cut</td>
+<td class="org-left">cortar</td>
+<td class="org-left">/ kut /</td>
+</tr>
+
+<tr>
+<td class="org-left">do</td>
+<td class="org-left">did</td>
+<td class="org-left">done</td>
+<td class="org-left">hacer</td>
+<td class="org-left">/ duu /</td>
+</tr>
+
+<tr>
+<td class="org-left">draw</td>
+<td class="org-left">drew</td>
+<td class="org-left">drawn</td>
+<td class="org-left">dibujar</td>
+<td class="org-left">/ droa /</td>
+</tr>
+
+<tr>
+<td class="org-left">drink</td>
+<td class="org-left">drank</td>
+<td class="org-left">drunk</td>
+<td class="org-left">beber</td>
+<td class="org-left">/ dringk /</td>
+</tr>
+
+<tr>
+<td class="org-left">drive</td>
+<td class="org-left">drove</td>
+<td class="org-left">driven</td>
+<td class="org-left">manejar</td>
+<td class="org-left">/ draif /</td>
+</tr>
+
+<tr>
+<td class="org-left">eat</td>
+<td class="org-left">ate</td>
+<td class="org-left">eaten</td>
+<td class="org-left">comer</td>
+<td class="org-left">/ i:t /</td>
+</tr>
+
+<tr>
+<td class="org-left">fall</td>
+<td class="org-left">fell</td>
+<td class="org-left">fallen</td>
+<td class="org-left">caer</td>
+<td class="org-left">/ fa<sub>ol</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">feel</td>
+<td class="org-left">felt</td>
+<td class="org-left">felt</td>
+<td class="org-left">sentir</td>
+<td class="org-left">/  fi<sub>el</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">find</td>
+<td class="org-left">found</td>
+<td class="org-left">found</td>
+<td class="org-left">buscar</td>
+<td class="org-left">/ faind /</td>
+</tr>
+
+<tr>
+<td class="org-left">fly</td>
+<td class="org-left">flew</td>
+<td class="org-left">flown</td>
+<td class="org-left">volar</td>
+<td class="org-left">/ flai: /</td>
+</tr>
+
+<tr>
+<td class="org-left">forget</td>
+<td class="org-left">forgot</td>
+<td class="org-left">gorgotten</td>
+<td class="org-left">olvidar</td>
+<td class="org-left">/ fer<sub>get</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">freeze</td>
+<td class="org-left">froze</td>
+<td class="org-left">frozen</td>
+<td class="org-left">congelar</td>
+<td class="org-left">/ fri:z /</td>
+</tr>
+
+<tr>
+<td class="org-left">get</td>
+<td class="org-left">got</td>
+<td class="org-left">got</td>
+<td class="org-left">obtener</td>
+<td class="org-left">/ guet /</td>
+</tr>
+
+<tr>
+<td class="org-left">give</td>
+<td class="org-left">gave</td>
+<td class="org-left">given</td>
+<td class="org-left">dar</td>
+<td class="org-left">/ guif /</td>
+</tr>
+
+<tr>
+<td class="org-left">go</td>
+<td class="org-left">went</td>
+<td class="org-left">gone</td>
+<td class="org-left">ir</td>
+<td class="org-left">/ gou /</td>
+</tr>
+
+<tr>
+<td class="org-left">grow</td>
+<td class="org-left">grew</td>
+<td class="org-left">grown</td>
+<td class="org-left">crecer</td>
+<td class="org-left">/ grou: /</td>
+</tr>
+
+<tr>
+<td class="org-left">have</td>
+<td class="org-left">had</td>
+<td class="org-left">had</td>
+<td class="org-left">tengo</td>
+<td class="org-left">/ ja:f /</td>
+</tr>
+
+<tr>
+<td class="org-left">hear</td>
+<td class="org-left">heard</td>
+<td class="org-left">heard</td>
+<td class="org-left">escuchar</td>
+<td class="org-left">/ ji:er /</td>
+</tr>
+
+<tr>
+<td class="org-left">hide</td>
+<td class="org-left">hid</td>
+<td class="org-left">hidden</td>
+<td class="org-left">esconder</td>
+<td class="org-left">/ jai:d /</td>
+</tr>
+
+<tr>
+<td class="org-left">hit</td>
+<td class="org-left">hit</td>
+<td class="org-left">hit</td>
+<td class="org-left">pegar</td>
+<td class="org-left">/ je:t /</td>
+</tr>
+
+<tr>
+<td class="org-left">hold</td>
+<td class="org-left">held</td>
+<td class="org-left">held</td>
+<td class="org-left">mantener</td>
+<td class="org-left">/ jo:ld /</td>
+</tr>
+
+<tr>
+<td class="org-left">hurt</td>
+<td class="org-left">hurt</td>
+<td class="org-left">hurt</td>
+<td class="org-left">herida / daño</td>
+<td class="org-left">/ je:rt /</td>
+</tr>
+
+<tr>
+<td class="org-left">keep</td>
+<td class="org-left">kept</td>
+<td class="org-left">kept</td>
+<td class="org-left">mantenerse</td>
+<td class="org-left">/ ki:p /</td>
+</tr>
+
+<tr>
+<td class="org-left">know</td>
+<td class="org-left">knew</td>
+<td class="org-left">known</td>
+<td class="org-left">saber</td>
+<td class="org-left">/ no:u /</td>
+</tr>
+
+<tr>
+<td class="org-left">learn</td>
+<td class="org-left">learned / learnt</td>
+<td class="org-left">learned / learnt</td>
+<td class="org-left">aprender</td>
+<td class="org-left">/ le:rn /</td>
+</tr>
+
+<tr>
+<td class="org-left">leave</td>
+<td class="org-left">left</td>
+<td class="org-left">left</td>
+<td class="org-left">irse</td>
+<td class="org-left">/ li:fv /</td>
+</tr>
+
+<tr>
+<td class="org-left">lend</td>
+<td class="org-left">lent</td>
+<td class="org-left">lent</td>
+<td class="org-left">prestar</td>
+<td class="org-left">/ lend /</td>
+</tr>
+
+<tr>
+<td class="org-left">let</td>
+<td class="org-left">let</td>
+<td class="org-left">let</td>
+<td class="org-left">dejar</td>
+<td class="org-left">/ let /</td>
+</tr>
+
+<tr>
+<td class="org-left">lie</td>
+<td class="org-left">lay</td>
+<td class="org-left">lain</td>
+<td class="org-left">mentir</td>
+<td class="org-left">/ lai: /</td>
+</tr>
+
+<tr>
+<td class="org-left">lose</td>
+<td class="org-left">lost</td>
+<td class="org-left">lost</td>
+<td class="org-left">perder</td>
+<td class="org-left">/ lo:z /</td>
+</tr>
+
+<tr>
+<td class="org-left">make</td>
+<td class="org-left">made</td>
+<td class="org-left">made</td>
+<td class="org-left">fabricar</td>
+<td class="org-left">/ maik /</td>
+</tr>
+
+<tr>
+<td class="org-left">mean</td>
+<td class="org-left">meant</td>
+<td class="org-left">meant</td>
+<td class="org-left">querer decir</td>
+<td class="org-left">/ mi:n /</td>
+</tr>
+
+<tr>
+<td class="org-left">meet</td>
+<td class="org-left">met</td>
+<td class="org-left">met</td>
+<td class="org-left">reunirse</td>
+<td class="org-left">/ mi:t /</td>
+</tr>
+
+<tr>
+<td class="org-left">pay</td>
+<td class="org-left">paid</td>
+<td class="org-left">paid</td>
+<td class="org-left">pagar</td>
+<td class="org-left">/ pai: /</td>
+</tr>
+
+<tr>
+<td class="org-left">put</td>
+<td class="org-left">put</td>
+<td class="org-left">put</td>
+<td class="org-left">poner</td>
+<td class="org-left">/ po:t /</td>
+</tr>
+
+<tr>
+<td class="org-left">read</td>
+<td class="org-left">read</td>
+<td class="org-left">read</td>
+<td class="org-left">leer</td>
+<td class="org-left">/ ri:dt /</td>
+</tr>
+
+<tr>
+<td class="org-left">ride</td>
+<td class="org-left">rode</td>
+<td class="org-left">ridden</td>
+<td class="org-left">montar</td>
+<td class="org-left">/ rai:dt /</td>
+</tr>
+
+<tr>
+<td class="org-left">ring</td>
+<td class="org-left">rang</td>
+<td class="org-left">rung</td>
+<td class="org-left">sonar / llamar</td>
+<td class="org-left">/ ri:ng /</td>
+</tr>
+
+<tr>
+<td class="org-left">run</td>
+<td class="org-left">ran</td>
+<td class="org-left">run</td>
+<td class="org-left">correr</td>
+<td class="org-left">/ ra:unn /</td>
+</tr>
+
+<tr>
+<td class="org-left">say</td>
+<td class="org-left">said</td>
+<td class="org-left">said</td>
+<td class="org-left">decir</td>
+<td class="org-left">/ sei: /</td>
+</tr>
+
+<tr>
+<td class="org-left">see</td>
+<td class="org-left">saw</td>
+<td class="org-left">seen</td>
+<td class="org-left">ver</td>
+<td class="org-left">/ si: /</td>
+</tr>
+
+<tr>
+<td class="org-left">sell</td>
+<td class="org-left">sold</td>
+<td class="org-left">sold</td>
+<td class="org-left">vender</td>
+<td class="org-left">/ se:l /</td>
+</tr>
+
+<tr>
+<td class="org-left">send</td>
+<td class="org-left">sent</td>
+<td class="org-left">sent</td>
+<td class="org-left">enviar</td>
+<td class="org-left">/ se:nd /</td>
+</tr>
+
+<tr>
+<td class="org-left">shine</td>
+<td class="org-left">shone</td>
+<td class="org-left">shone</td>
+<td class="org-left">brillar</td>
+<td class="org-left">/ sh<sub>ain</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">show</td>
+<td class="org-left">showed</td>
+<td class="org-left">shown</td>
+<td class="org-left">mostrar</td>
+<td class="org-left">/ sh<sub>ou</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">shut</td>
+<td class="org-left">shut</td>
+<td class="org-left">shut</td>
+<td class="org-left">cerrar</td>
+<td class="org-left">/ sh<sub>at</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">sing</td>
+<td class="org-left">sang</td>
+<td class="org-left">sung</td>
+<td class="org-left">cantar</td>
+<td class="org-left">/ s:ing /</td>
+</tr>
+
+<tr>
+<td class="org-left">sit</td>
+<td class="org-left">sat</td>
+<td class="org-left">sat</td>
+<td class="org-left">sentar</td>
+<td class="org-left">/ se:t /</td>
+</tr>
+
+<tr>
+<td class="org-left">sleep</td>
+<td class="org-left">slept</td>
+<td class="org-left">slept</td>
+<td class="org-left">dormir</td>
+<td class="org-left">/ s:lipt /</td>
+</tr>
+
+<tr>
+<td class="org-left">smell</td>
+<td class="org-left">smelled/smelt</td>
+<td class="org-left">smelled/smelt</td>
+<td class="org-left">oler</td>
+<td class="org-left">/ s:mel /</td>
+</tr>
+
+<tr>
+<td class="org-left">speak</td>
+<td class="org-left">spoke</td>
+<td class="org-left">spoken</td>
+<td class="org-left">hablar</td>
+<td class="org-left">/ s:pik /</td>
+</tr>
+
+<tr>
+<td class="org-left">spend</td>
+<td class="org-left">spent</td>
+<td class="org-left">spent</td>
+<td class="org-left">gastar</td>
+<td class="org-left">/ s:pend /</td>
+</tr>
+
+<tr>
+<td class="org-left">spill</td>
+<td class="org-left">spilled / spilt</td>
+<td class="org-left">spilled / spilt</td>
+<td class="org-left">derramar</td>
+<td class="org-left">/ s:peld /</td>
+</tr>
+
+<tr>
+<td class="org-left">stand</td>
+<td class="org-left">stood</td>
+<td class="org-left">stood</td>
+<td class="org-left">aguantar</td>
+<td class="org-left">/ s:teand /</td>
+</tr>
+
+<tr>
+<td class="org-left">swim</td>
+<td class="org-left">swam</td>
+<td class="org-left">swum</td>
+<td class="org-left">nadar</td>
+<td class="org-left">/ s:uim /</td>
+</tr>
+
+<tr>
+<td class="org-left">take</td>
+<td class="org-left">took</td>
+<td class="org-left">taken</td>
+<td class="org-left">tomar</td>
+<td class="org-left">/ teik /</td>
+</tr>
+
+<tr>
+<td class="org-left">teach</td>
+<td class="org-left">taught</td>
+<td class="org-left">taught</td>
+<td class="org-left">enseñar</td>
+<td class="org-left">/ ti:CH /</td>
+</tr>
+
+<tr>
+<td class="org-left">tell</td>
+<td class="org-left">told</td>
+<td class="org-left">told</td>
+<td class="org-left">contar / decir</td>
+<td class="org-left">/ te<sub>al</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">think</td>
+<td class="org-left">thought</td>
+<td class="org-left">thought</td>
+<td class="org-left">pensar</td>
+<td class="org-left">/ zi:nk /</td>
+</tr>
+
+<tr>
+<td class="org-left">throw</td>
+<td class="org-left">threw</td>
+<td class="org-left">thrown</td>
+<td class="org-left">tirar / lanzar</td>
+<td class="org-left">/ ztrou /</td>
+</tr>
+
+<tr>
+<td class="org-left">understand</td>
+<td class="org-left">understood</td>
+<td class="org-left">understood</td>
+<td class="org-left">entender</td>
+<td class="org-left">/ unders<sub>tend</sub> /</td>
+</tr>
+
+<tr>
+<td class="org-left">wake</td>
+<td class="org-left">woke</td>
+<td class="org-left">woken</td>
+<td class="org-left">despertar</td>
+<td class="org-left">/ waik /</td>
+</tr>
+
+<tr>
+<td class="org-left">wear</td>
+<td class="org-left">wore</td>
+<td class="org-left">worn</td>
+<td class="org-left">usar / vestir</td>
+<td class="org-left">/ we:r /</td>
+</tr>
+
+<tr>
+<td class="org-left">win</td>
+<td class="org-left">won</td>
+<td class="org-left">won</td>
+<td class="org-left">ganar</td>
+<td class="org-left">/ we:n /</td>
+</tr>
+
+<tr>
+<td class="org-left">write</td>
+<td class="org-left">wrote</td>
+<td class="org-left">written</td>
+<td class="org-left">escribir</td>
+<td class="org-left">/ wrait /</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 18th April 2021</p>
+<p class="author">Author: Nelson Lombardo</p>
+<p class="date">Created: 2021-04-24 Sat 11:36</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
