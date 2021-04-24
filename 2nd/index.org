@@ -12,6 +12,7 @@
 #+LATEX_HEADER: \setcounter{secnumdepth}{0}
 #+OPTIONS: num:nil
 #+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
 
 * Books
 

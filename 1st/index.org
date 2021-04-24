@@ -11,19 +11,81 @@
 #+LATEX_HEADER: \usepackage[table]{xcolor}
 #+LATEX_HEADER: \setcounter{secnumdepth}{0}
 #+OPTIONS: num:nil
+#+HTML_HEAD: <link rel="shortcut icon" type="image/jpg" href="./img/favicon.png"/>
 #+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
 
 * Simple Past
+
+** Rules
+
+#+BEGIN_SRC dot :file ./img/u_simple_past_rules.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "irregular\nverb" -> "eat" [ label = "as" ];
+      "eat" -> "I ate pizza." [ label = "positive" ];
+      "eat" -> "I didn't eat pizza." [ label = "negative" ];
+      "eat" -> "Did you eat pizza." [ label = "question" ];
+    "irregular\nverb" -> "go" [ label = "as" ];
+      "go" -> "I went fishing." [ label = "positive" ];
+      "go" -> "I didn't go fishing." [ label = "negative" ];
+      "go" -> "Did you go fishing." [ label = "question" ];
+    "regular\nverb" -> "watch" [ label = "as" ];
+      "watch" -> "I watched TV." [label = "positive" ];
+      "watch" -> "I didn't watch TV." [label = "negative" ];
+      "watch" -> "Did you watch TV." [label = "question" ];
+    "regular\nverb" -> "play" [ label = "as" ];
+      "play" -> "I played videogames." [label = "positive" ];
+      "play" -> "I didn't play videogames." [label = "negative" ];
+      "play" -> "Did you play videogames." [label = "question" ];
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u_simple_past_rules.svg]]
+
+** Dialogs: Examples
+
+   - A: :: _Did_ you _eat_ pizza last night?
+   - B: :: Yes, I _did_. I _ate_ pizza with my parents.
+   ---
+
+** Sentenes: Examples
+
+    01. He _met_ a stranger.
+    02. _Did_ Sheila _hear_ me on the phone? Yes, she _did_.
+    03. Tom and Sally _watched_ TV all afternoon last Saturday.
+    04. You _didn't pay_ the waiter last night. I _paid_ (pay) it!
+    05. The boys _didn't play_ play basketball at school a year ago.
+    06. My daughter _liked_ the book. It _was_ a great present for her.
+    07. Alice _wasn't_  married when you _met_ her for the first time.
+    08. _Did_ you _saw_ Eirc last class? No, I _didn't_.
+    09. _Was_ Harry at home yesterday? No, he _wasn't_.
+    10. We _were_ very happy to see you last year.
+    11. Lunch _was_ great yesterday, but dinner _wasn't_. Just a sandwich!
+    12. I can't find my keys. The _were_ here this morning.
+    13. Yesterday Mr. Brown _went_ fishing at the lake.
+    14. They _had_ lunch together at a restaurant.
+    15. Tom and Sally _played_ together all weekend.
+    16. On Sunday Mark _read_ a book about dinosaurs.
+    17. I _didn't start_  work at 9a.m. yesterday.
+    18. Did you _ask_ your teacher about the exam? asked -> /ast/
+    19. I _didn't see_ the film you recommend. I don't have time.
+    20. _Did_ you _buy_ the oranges for the fruit salad?
+     
+#+RESULTS:
+[[file:./img/u_simple_past_rules.svg]]
 
 ** Regular verbs: Examples
 
    | Verb   | Simple past |
    |--------+-------------|
+   | enjoy  | enjoied     |
    | finish | finished    |
+   | love   | loved       |
    | marry  | married     |
    | paint  | painted     |
    | start  | started     |
    | study  | studied     |
+   | try    | tried       |
    | work   | worked      |
    
 ** Irregular verbs: List
