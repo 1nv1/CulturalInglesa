@@ -42,13 +42,31 @@
 #+RESULTS:
 [[file:./img/u_simple_past_rules.svg]]
 
-** Dialogs: Examples
+** Forms
 
-   - A: :: _Did_ you _eat_ pizza last night?
-   - B: :: Yes, I _did_. I _ate_ pizza with my parents.
-   ---
+   1. I _didn't miss_ lunch yesterday. (negative)
+   2. I _didn't meet_ some friends at the weekend. (negative)
+   3. I _didn't study_ English yesterday evening. (negative)
+   4. I _slept_ very well last night. (positive)
+   5. I _made_ breakfast for myself this morning. (positive)
+   6. I _didn't come_ to this lesson by car. (negative)
 
-** Sentenes: Examples
+** Simples sentences: Examples
+
+   01. I _was_ at work yesterday afternoon.
+   02. Where _were_ you at six o'clock?
+   03. I _was_ at my friend's flat on evening Wednesday.
+   04. When _were_ you at the shops?
+   05. _Were_ you at home at half past twelve?
+   06. Where _were_ you on _Monday_ morning?
+   07. How _was_ your weekend?
+   09. What _did_ you do at the weekend?
+   10. What _happened_?
+   11. Why _was_ that?
+   12. Where _did_ you go?
+   13. Who _did_ you go with?
+
+** Sentences: Examples
 
     01. He _met_ a stranger.
     02. _Did_ Sheila _hear_ me on the phone? Yes, she _did_.
@@ -70,6 +88,52 @@
     18. Did you _ask_ your teacher about the exam? asked -> /ast/
     19. I _didn't see_ the film you recommend. I don't have time.
     20. _Did_ you _buy_ the oranges for the fruit salad?
+    21. Last weekend I _went_ to the beach.
+    22. I _met_ my husband six years ago.
+    23. Where _did_ you _go_ last week?
+    24. I _went_ to Greece six months ago.
+    25. Last month we _went_ to France.
+    26. Susan and her husband _met_ a work in 2001. They _didn't_ get married that year.
+    27. Last month _was_ fantastic! I _did_ a lot of interesting things!
+
+** Dialogs: Examples
+
+   - A: :: _Did_ you _eat_ pizza last night?
+   - B: :: Yes, I _did_. I _ate_ pizza with my parents.
+   ---
+   - A: :: What _did_ you _do_ yesterday?
+   - B: :: I _traveled_ to Añelo to _worked_ in the oilfield.
+   ---
+   - A: :: Where _were_ you last week?
+   - B: :: I _was_ on holiday.
+   ---
+   - A: :: Where _did_ you _go_?
+   - B: :: I _went_ to Dublin.
+   ---
+   - A: :: _Was_ it _hot_?
+   - B: :: No, it _wasn't_. It was cold!
+   ---
+   - A: :: _Were_ the people friendly?
+   - B: :: Oh yes, there _were_ really friendly.
+   ---
+   - A: :: What _did_ you _eat_?
+   - B: :: I _ate_ the local food.
+
+** Story: My childhood memories
+
+   Hello, my name _is_ Paola. When I _was_ a child I _lived_ in a small town in Mexico. I remember my best
+   friend at primary school _was_ Manuel. When we _met_ he _was_ 8 years old and I _was_ 9. We _were_ in the
+   same class at school. We _sat_ together and we _played_ games all the time. In the afternoon, I _visited_
+   him or he _visited_ me and we _did_ homework or _watched_ cartoons on TV. His family _moved_ to another city,
+   but I still see Manuel sometimes or we make videocalls.
+
+** Story: Planes, trains and me
+
+   I love _going_ to different countries but I _don't_ like travelling by plane. In fact, I hate it! Last year,
+   I _went_  on holiday with my friend, Luca. Luca _wanted_ to fly, but I _didn't_ want to go by plane so I
+   _traveled_ by train. Big mistake!
+   The journey _took_ nine hours. I _didn't_ have any food with me and there _wasn't_ a café at the station. When I
+   _arrived_ at the hotel, I _was_ very tired and hungry. I _ordered_ room service and _ate_ a good metal.
      
 ** Regular verbs: Examples
 
@@ -168,6 +232,15 @@
    | win        | won              | won              | ganar          | / we:n /        |
    | write      | wrote            | written          | escribir       | / wrait /       |
 
+* Prepositions
 
+** Notes
 
-
+   | For                           | Use  | Examples                    |
+   |-------------------------------+------+-----------------------------|
+   | Dates days of the week        | _on_ | **On** days of week (Monday |
+   | Years                         | _in_ |                             |
+   | Night of clock                | _at_ |                             |
+   | The morning/afternoon/evening | _in_ |                             |
+   | Months of the year            | _in_ |                             |
+   | night/noon(midday)            | _at_ |                             |
