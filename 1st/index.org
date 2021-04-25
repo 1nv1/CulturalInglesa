@@ -44,12 +44,12 @@
 
 ** Forms
 
-   1. I _didn't miss_ lunch yesterday. (negative)
-   2. I _didn't meet_ some friends at the weekend. (negative)
-   3. I _didn't study_ English yesterday evening. (negative)
+   1. I _didn't_ miss lunch yesterday. (negative)
+   2. I _didn't_ meet some friends at the weekend. (negative)
+   3. I _didn't_ study English yesterday evening. (negative)
    4. I _slept_ very well last night. (positive)
    5. I _made_ breakfast for myself this morning. (positive)
-   6. I _didn't come_ to this lesson by car. (negative)
+   6. I _didn't_ come to this lesson by car. (negative)
 
 ** Simples sentences: Examples
 
