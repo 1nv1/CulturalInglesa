@@ -98,26 +98,15 @@
 
 ** Dialogs: Examples
 
-   - A: :: _Did_ you _eat_ pizza last night?
-   - B: :: Yes, I _did_. I _ate_ pizza with my parents.
-   ---
-   - A: :: What _did_ you _do_ yesterday?
-   - B: :: I _traveled_ to Añelo to _worked_ in the oilfield.
-   ---
-   - A: :: Where _were_ you last week?
-   - B: :: I _was_ on holiday.
-   ---
-   - A: :: Where _did_ you _go_?
-   - B: :: I _went_ to Dublin.
-   ---
-   - A: :: _Was_ it _hot_?
-   - B: :: No, it _wasn't_. It was cold!
-   ---
-   - A: :: _Were_ the people friendly?
-   - B: :: Oh yes, there _were_ really friendly.
-   ---
-   - A: :: What _did_ you _eat_?
-   - B: :: I _ate_ the local food.
+   | Person A                          | Person B                                           |
+   |-----------------------------------+----------------------------------------------------|
+   | _Did_ you _eat_ pizza last night? | Yes, I _did_. I _ate_ pizza with my parents.       |
+   | What _did_ you _do_ yesterday?    | I _traveled_ to Añelo to _worked_ in the oilfield. |
+   | Where _were_ you last week?       | I _was_ on holiday.                                |
+   | Where _did_ you _go_?             | I _went_ to Dublin.                                |
+   | _Was_ it _hot_?                   | No, it _wasn't_. It was cold!                      |
+   | _Were_ the people friendly?       | Oh yes, there _were_ really friendly.              |
+   | What _did_ you _eat_?             | I _ate_ the local food.                            |
 
 ** Story: My childhood memories
 
