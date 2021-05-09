@@ -40,7 +40,7 @@
 #+END_SRC
 
 #+RESULTS:
-[[file:rule_compartive.svg]]
+[[file:./img/u71_comparatives_rules.svg]]
     
 ** Comparatives: Basic examples
 
@@ -162,7 +162,7 @@
 #+END_SRC
 
 #+RESULTS:
-[[file:rule_superlative.svg]]
+[[file:./img/u72_superlatives_rules.svg]]
 
 ** Superlatives: Examples
 
@@ -294,3 +294,63 @@
     "It's really" -> { "interesting ...", "delicious ...", "fun ...", "quiet ...", "beaufiul ..." };
  }
 #+END_SRC
+
+
+* Having a great time [unit 8.1]
+
+** Present continuous: Rules
+
+#+BEGIN_SRC dot :file ./img/u81_present_continuous.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "positive form" -> "I" -> "am / 'm" -> "watching TV.";
+    "negative form" -> "I" -> "am not / 'm not" -> "watching TV.";
+    "positive form" -> "He / She / It" -> "is / 's" -> "watching TV.";
+    "negative form" -> "He / She / It" -> "is not / 's not" -> "watching TV.";
+    "positive form" -> "We / You / They" -> "are / 're" -> "watching TV.";
+    "negative form" -> "We / You / They" -> "are not / 're not" -> "watching TV.";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u81_present_continuous.svg]]
+
+** Present continuous: Use
+
+   We use the present continuous
+
+   - to describe something that is happening while we are speaking.
+   - to talk about something that is happening around now, for a limited period of time.
+
+   We often use time expressions (e.g. rigth now, now, at the moment, today, this week).
+
+** Present continuous: Examples
+
+   | Hurry up. The taxi's _waiting_ outside right now.                      |
+   | Can you help me? I'm _looking_ for the post office.                    |
+   | James can't come to the door - he's _having_ a bath.                   |
+   | I'm using my brother's computer today because mine isn't _working_.    |
+   | We're on holiday this week. We're _staying_ in a hotel near the beach. |
+   | This year we're _studying_ the history of the theatre.                 |
+
+* Vocabulary: Adjectives examples
+
+   | Adjective   | Traduction  | Sentences                                               |
+   |-------------+-------------+---------------------------------------------------------|
+   | angry       | enojado     | Is everything ok? You look _angry_.                     |
+   | bored       | aburrido    | I'd be so _bored_ if I didn't have wi-fi.               |
+   | embarrassed | avergonzado | You shouldn't feel _embarrassed_ about your English.    |
+   | excited     |             | I'm super _excited_ about my trip to Cambridge.         |
+   | happy       | feliz       | Congratulations, I'm so _happy_ for you.                |
+   | sad         | triste      | We're really _sad_ to see you go.                       |
+   | hungry      | hambriento  | If you're _hungry_, help yourself to a sandwich.        |
+   | thirsty     | sediento    | You must be _thirsty_ after your gym session!           |
+   | tired       | cansado     | I'm pretty _tired_ so I'm going to take a nap.          |
+   | sleepy      | somnoliento | The sound of your voice makes me _sleepy_.              |
+   | upset       | enojado     | Laura is _upset_ because I forgot to call her.          |
+   | grateful    | agradecido  | I'm incredigly _grateful_ for all your support.         |
+   | amused      | entretenido | The teacher was not _amused_ by my joke.                |
+   | outraged    | indignado   | I'm _outraged_ by your lack of professionalism.         |
+   | annoyed     | irritado    | I'm pretty _annoyed_ that you didn't tell me the truth. |
+   | anxious     | ansioso     | If you're feeling _anxious_, go for a long walk.        |
+
+
