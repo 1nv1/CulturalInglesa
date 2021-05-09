@@ -332,6 +332,25 @@
 #+RESULTS:
 [[file:./img/u81_present_continuous_questions_wh_element.svg]]
 
+    In questions, we put /am/is/are/ before the subject of the sentence. Whe put the /-ing/ from after the subject:
+
+    - What *are* you *studying* this term?
+    - *Is* she *listening* to the radio?
+    - +*Are* *waiting* you for me?+
+    - +*Waiting* *are* you for me?+
+    - *Are* you *waiting* for me?
+
+    We don't usually repeat the main verb when we answer questions:
+
+    - Is that man *phoning* the police?
+      - +Yes, he is phoning.+ Yes, he is.
+      - +No, he isn't phoning.+ No, he isn't.
+
+    We don't use the short form of the verb in short answers with yes.
+
+    - Is she sleeping?
+      - +Yes, she's.+ Yes, she is.
+
 ** Present coninuous: Forms
 
    | + -ing    | double consonante + -ing | (-e) + -ing |
@@ -350,6 +369,13 @@
    - to talk about something that is happening around now, for a limited period of time.
 
    We often use time expressions (e.g. rigth now, now, at the moment, today, this week).
+
+   We often use the present coninuous to talk about what is happening in pictures and photos:
+
+   - What *are* they *doing*?
+     - They're *watching* a film.
+   - That's an interesting painting. *Is* that woman *writing* something?
+     - No, she isn't. She's *reading* a letter
 
 ** Present continuous: Basic examples
 
