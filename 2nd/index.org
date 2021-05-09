@@ -298,9 +298,9 @@
 
 * Having a great time [unit 8.1]
 
-** Present continuous: Rules
+** Present continuous: Rules positives / negatives
 
-#+BEGIN_SRC dot :file ./img/u81_present_continuous.svg :cmdline -Kdot -Tsvg
+#+BEGIN_SRC dot :file ./img/u81_present_continuous_rules_positive_negative.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
     "I" -> "am / 'm" -> "watching TV.";
     "I" -> "am not / 'm not" -> "watching TV.";
@@ -311,8 +311,36 @@
   }
 #+END_SRC
 
+** Present continuous: Rules for questions
+
+#+BEGIN_SRC dot :file ./img/u81_present_continuous_questions_yesno.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "Am" -> "I" -> "sitting here?";
+    "Is" -> "he / she / it" -> "sitting here?";
+    "Are" -> "we / you / they" -> "sitting here?";
+  }
+#+END_SRC
+
+#+BEGIN_SRC dot :file ./img/u81_present_continuous_questions_wh_element.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "What" -> "am" -> "I" -> "doing?";
+    "Where" -> "is" -> "he / she / it"-> "going?";
+    "Why" -> "are" -> "we / you / they" -> "running?";
+  }
+#+END_SRC
+
 #+RESULTS:
-[[file:./img/u81_present_continuous.svg]]
+[[file:./img/u81_present_continuous_questions_wh_element.svg]]
+
+** Present coninuous: Forms
+
+   | + -ing    | double consonante + -ing | (-e) + -ing |
+   |-----------+--------------------------+-------------|
+   | happening | running                  | living      |
+   | sleeping  | sitting                  | making      |
+   | visiting  | stopping                 | taking      |
+   | waiting   | swimming                 | using       |
+
 
 ** Present continuous: Use
 
@@ -323,7 +351,7 @@
 
    We often use time expressions (e.g. rigth now, now, at the moment, today, this week).
 
-** Present continuous: Examples
+** Present continuous: Basic examples
 
    | Hurry up. The taxi's _waiting_ outside right now.                      |
    | Can you help me? I'm _looking_ for the post office.                    |
@@ -337,6 +365,19 @@
    | The children are _sitting_ on the sofa.                                |
    | Pedro is _swiming_ in a river.                                         |
    | They are _waiting_ for a bus.                                          |
+
+** Present continuous: More examples
+
+   | Fernando can't come to the phone because he _is having_ a shower.               |
+   | It's cold today so I _am wearing_ a pullover.                                   |
+   | Jane's cooker isn't working so she _is eating_ in a restaurant today.           |
+   | The weather is nice today so the children _are playing_ in the garden.          |
+   | Dave can't send you an email because his computer _is not working_.             |
+   | Carla has hurt her leg so she _is not dancing at the moment.                    |
+   | Hurry up! It's time to leave. The taxi _is waiting_ outside.                    |
+   | We have a lot of work in the office today so we _aren't having_ a launch break. |
+   | It's a bank holiday so most people _aren't going_ to work today.                |
+
 
 * Vocabulary: Adjectives examples
 
