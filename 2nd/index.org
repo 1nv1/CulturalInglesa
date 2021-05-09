@@ -302,12 +302,12 @@
 
 #+BEGIN_SRC dot :file ./img/u81_present_continuous.svg :cmdline -Kdot -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
-    "positive form" -> "I" -> "am / 'm" -> "watching TV.";
-    "negative form" -> "I" -> "am not / 'm not" -> "watching TV.";
-    "positive form" -> "He / She / It" -> "is / 's" -> "watching TV.";
-    "negative form" -> "He / She / It" -> "is not / 's not" -> "watching TV.";
-    "positive form" -> "We / You / They" -> "are / 're" -> "watching TV.";
-    "negative form" -> "We / You / They" -> "are not / 're not" -> "watching TV.";
+    "I" -> "am / 'm" -> "watching TV.";
+    "I" -> "am not / 'm not" -> "watching TV.";
+    "He / She / It" -> "is / 's" -> "watching TV.";
+    "He / She / It" -> "is not / 's not" -> "watching TV.";
+    "We / You / They" -> "are / 're" -> "watching TV.";
+    "We / You / They" -> "are not / 're not" -> "watching TV.";
   }
 #+END_SRC
 
@@ -331,6 +331,12 @@
    | I'm using my brother's computer today because mine isn't _working_.    |
    | We're on holiday this week. We're _staying_ in a hotel near the beach. |
    | This year we're _studying_ the history of the theatre.                 |
+   | Susy's _running_ in the park.                                          |
+   | They're _relaxing_ in the garden.                                      |
+   | Jenny's _making_ a cake.                                               |
+   | The children are _sitting_ on the sofa.                                |
+   | Pedro is _swiming_ in a river.                                         |
+   | They are _waiting_ for a bus.                                          |
 
 * Vocabulary: Adjectives examples
 
