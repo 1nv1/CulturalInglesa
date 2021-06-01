@@ -427,3 +427,39 @@
    | anxious     | ansioso     | If you're feeling _anxious_, go for a long walk.        |
 
 
+** Wh - questions
+
+*** Examples
+
+    Wh- questions *always* start with a wh- word
+
+    | who | what | when | where | how | which | why | whose |
+
+    Practice
+
+    | How can | How many | What can | Where can | Why is | Why should |
+
+    - 0) :: _Why should_ I buy the *Generation X* DVD recorder?
+    That's simple - because it's the most modern and best new DVD recorder!
+    - 1) :: _Why is_ the *Generation X* recorder more expensive than most of the others?
+    Well, it's only a little more expensive... and it is better than most others, for example, it can store more films.
+    - 2) :: _How many_ films can the *Generation X* recorder store?
+    About 100. It depends on how long the films are.
+    - 3) :: _How can_ I use my old videos with this machine?
+    If you
+
+**** Make questions from the statements.
+
+     - 0) :: I'm not sure where the nearest bank is. _Where is the nearest bank?_
+     - 1) :: I'm not sure where we're staying. _Where are we staying?_
+     - 2) :: I'm not sure how we get to the station. _How do we get to the station?_
+     - 3) :: I'm not sure what time the plane arrived. _What time did the plane arrive?_
+     - 4) :: I'm not sure what kind of computer she wants. _What kind of computer does she want?_
+     - 5) :: You didn't phone me. I don't know why. _Why didn't phone you phone me?_
+     - 6) :: I'm not sure which class I'm in. _Which class am I in?_
+
+**** Complete the job interview with questions. Use the words in brackets
+
+     - A) :: Right. Do you have any questions about the job?
+     - B) :: Yes, I do, actually. _What time do you start_ in the morning?
+     - A) :: We open at 9.30 and the assistants have to be here at 9.00 or 8.30 on Thurdays.
