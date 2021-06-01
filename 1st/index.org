@@ -227,9 +227,17 @@
 
    | For                           | Use  | Examples                    |
    |-------------------------------+------+-----------------------------|
-   | Dates days of the week        | _on_ | **On** days of week (Monday |
    | Years                         | _in_ |                             |
    | Night of clock                | _at_ |                             |
-   | The morning/afternoon/evening | _in_ |                             |
    | Months of the year            | _in_ |                             |
-   | night/noon(midday)            | _at_ |                             |
+
+#+BEGIN_SRC dot :file ./img/u_prepositions.svg :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "in" -> { "the morning", "the evening", "the afternoon" };
+    "at" -> { "noon", "night", "midnight" };
+    "on" -> { "Mondary", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u_prepositions.svg]]
