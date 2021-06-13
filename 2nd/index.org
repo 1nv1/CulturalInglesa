@@ -491,71 +491,15 @@
 
 *** Examples
 
-#+BEGIN_SRC dot :file ./img/u83_examples.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
-    subgraph {
-      "Noventa minutos en el mundo
-      aterrador de vampiros y sangre..."
-        -> "Ninety minutes in the scary
-           world of vampires and blood..."
-        -> "Horror film";
-    }
-    subgraph {
-      "Los amigos de la infancia Jésica y Tim
-      se reunen luego de diez años, y ellos
-      buscan ser algo más que sólo buenos amigos..."
-        -> "Childhood friends Jessica and Tim
-           meet after ten years, and they want
-           to be more than just good friends..."
-        -> "Romantic";
-    }
-    subgraph {
-      "Gene Walker is un Fred Astaire moderno,
-      bailando y cantando por las calles de Cordoba..."
-        -> "Gene Walker is a modern-day Fred Astaire,
-           dancing and singing his way through the
-           streets of Cordoba..."
-        -> "Musical";
-    }
-    subgraph {
-      "El oficial de policia de New York Jack Hare
-      se toma unas vacaciones en Miami, pero termina
-      trabajando para salvar el país de un ataque terrorista..."
-        -> "New York police officer Jack Hare takes a holiday
-           in Miami, but finds himself working to save the
-           country from a terrorist attack."
-        -> "Action film";
-    }
-    subgraph {
-      "Un granjero en Francia despierta y descrubre que todos
-      sus aniamles pueden hablar... Chino. Muchas risas mientras
-      los granjeros aprenden Chino para hablar con los animales..."
-        -> "A farmer in France wakes up and finds that all
-           his animals can speak... Chinese. Lots of laughs as
-           the farmers teaches himself Chinese to talk to the animals..."
-        -> "Comedy";
-    }
-    subgraph {
-      "Una pequeña villa India tiene visitas de turistas del espacio -
-      extraterrestres de otra galaxy. Una sorpresa como los extraterrestres
-      tienen más que aprender de los lugareños de lo que piensan..."
-        -> "A small Indian village has a visit from space tourists -
-           aliens from another galaxy. A surprise as the aliens have
-           more to learn from the locals than they think..."
-        -> "Sci-Fi film";
-    }
-    subgraph {
-      "Sally Bonner pierde a sus padres en un accidente de tren.
-      Ella es ciega y crece sola sin amigos... pero entonces
-      Edmund, su profesor, ayuda a Sally a tocar el piano..." 
-      -> "Sally Bonner loses her parents in a train accident.
-         She is blind and grows up alone with no friends...
-         but then Edmund, her teacher, helps Sally learn to
-         play the piano..."
-      -> "Drama"
-    }
-  }
-#+END_SRC
+     | Español                                                                                                                                                                                             | Inglés                                                                                                                                                                      | Types of films |
+     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------|
+     | Noventa minutos en el mundo aterrador de vampiros y sangre...                                                                                                                                       | Ninety minutes in the scary world of vampires and blood...                                                                                                                  | Horror film    |
+     | Los amigos de la infancia Jésica y Tim se reunen luego de diez años, y ellos buscan ser algo más que sólo buenos amigos...                                                                          | Childhood friends Jessica and Tim meet after ten years, and they want to be more than just good friends...                                                                  | Romantic       |
+     | Gene Walker is un Fred Astaire moderno, bailando y cantando por las calles de Cordoba...                                                                                                            | Gene Walker is a modern-day Fred Astaire, dancing and singing his way through the streets of Cordoba...                                                                     | Musical        |
+     | El oficial de policia de New York Jack Hare se toma unas vacaciones en Miami, pero termina trabajando para salvar el país de un ataque terrorista...                                                | New York police officer Jack Hare takes a holiday in Miami, but finds himself working to save the country from a terrorist attack.                                          | Action film    |
+     | Un granjero en Francia despierta y descrubre que todos sus aniamles pueden hablar... Chino. Muchas risas mientras los granjeros aprenden Chino para hablar con los animales...                      | A farmer in France wakes up and finds that all his animals can speak... Chinese. Lots of laughs as the farmers teaches himself Chinese to talk to the animals...            | Comedy         |
+     | Una pequeña villa India tiene visitas de turistas del espacio - extraterrestres de otra galaxy. Una sorpresa como los extraterrestres tienen más que aprender de los lugareños de lo que piensan... | A small Indian village has a visit from space tourists - aliens from another galaxy. A surprise as the aliens have more to learn from the locals than they think...         | Sci-Fi film    |
+     | Sally Bonner pierde a sus padres en un accidente de tren. Ella es ciega y crece sola sin amigos... pero entonces Edmund, su profesor, ayuda a Sally a tocar el piano...                             | Sally Bonner loses her parents in a train accident. She is blind and grows up alone with no friends... but then Edmund, her teacher, helps Sally learn to play the piano... | Drama          |
 
 *** Conversation
 
@@ -585,33 +529,22 @@
 
 *** Key phrases
 
-#+BEGIN_SRC dot :file ./img/u84_key_phrases.svg :cmdline -Kdot -Tsvg
-  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
-    "¿Te puedo hacer algunas preguntas?" -> "Can I ask you a few questions?";
-    "¿Qué tipo de festival te gustan?" -> "What kind of festival do you like?";
-    "A las personas le gusta porque..." -> "People like it because...";
-    "Esto depende del festival..." -> "It depends on the festival...";
-    "Hace años no podías conseguir\ninformación de internet" -> "Years ago you couldn't always\nget information on the internet.";
-    subgraph {
-      "¿Cómo es diferente ahora?" -> "How is it different now?";
-      "¿En que se diferencia de antes?" -> "How is it different from before?";
-      "¿En qué se diferencian ahora?" -> "How are they different now?";
-      "¿En qué se diferencian de antes?" -> "How are they differente from before?";
-    }
-    subgraph {
-      "Esto es muy popular en este momento." -> "It's very popular at the moment.";
-      "Ellos son muy populares en este momento." -> "They're very popular at the moment.";
-    }
-    subgraph {
-      "La seguridad es mucho mejor que antes." -> "Security is much better than before";
-      "Los precios son mucho más caros que antes." -> "Prices are more expensive than before";
-      "Los precios son mucho más baratos que antes." -> "Prices are cheaper than before";
-    }
-  }
-#+END_SRC
-
-#+RESULTS:
-[[file:./img/u84_key_phrases.svg]]
+    | Español                                               | Inglés                                                         |
+    |-------------------------------------------------------+----------------------------------------------------------------|
+    | ¿Te puedo hacer algunas preguntas?                    | Can I ask you a few questions?                                 |
+    | ¿Qué tipo de festival te gustan?                      | What kind of festival do you like?                             |
+    | A las personas le gusta porque...                     | People like it because...                                      |
+    | Esto depende del festival...                          | It depends on the festival...                                  |
+    | Hace años no podías conseguir información de internet | Years ago you couldn't always get information on the internet. |
+    | ¿Cómo es diferente ahora?                             | How is it different now?                                       |
+    | ¿En que se diferencia de antes?                       | How is it different from before?                               |
+    | ¿En qué se diferencian ahora?                         | How are they different now?                                    |
+    | ¿En qué se diferencian de antes?                      | How are they differente from before?                           |
+    | Esto es muy popular en este momento.                  | It's very popular at the moment.                               |
+    | Ellos son muy populares en este momento.              | They're very popular at the moment.                            |
+    | La seguridad es mucho mejor que antes.                | Security is much better than before.                           |
+    | Los precios son mucho más caros que antes.            | Prices are more expensive than before.                         |
+    | Los precios son mucho más baratos que antes.          | Prices are cheaper than before.                                |
 
 ** Vocabulary
 
