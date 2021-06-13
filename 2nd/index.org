@@ -507,7 +507,7 @@
         -> "Childhood friends Jessica and Tim
            meet after ten years, and they want
            to be more than just good friends..."
-        -> "Romcantic";
+        -> "Romantic";
     }
     subgraph {
       "Gene Walker is un Fred Astaire moderno,
@@ -557,8 +557,17 @@
   }
 #+END_SRC
 
-#+RESULTS:
-[[file:./img/u83_examples.svg]]
+*** Conversation
+
+    | Person A                                      | Person B                                                    |
+    |-----------------------------------------------+-------------------------------------------------------------|
+    | Do you want to watch a film?                  | Sorry, I'm busy                                             |
+    | Oh. Well then, can you recommend a good film? | Hmm... What kind of films do you like                       |
+    | Horror films, action films...                 | Do you like sci-fi?                                         |
+    | I don't know many sci-fi films.               | How about The Hunger Games? Do you know it?                 |
+    | What's about it?                              | It's about the future and the way rich people control us... |
+    | Who's in it?                                  | Jennifer Lawrence and Josh Hutcherson.                      |
+    | Oh, she's good                                | Yeah. It's a good film - I think you'd like it              |
     
 * Changing trends [unit 8.4]
 
