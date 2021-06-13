@@ -549,7 +549,17 @@
 
 * Citybikes [unit 9.1]
 
-** Grammar: Can / Can't & Have to / Don't have to
+** Grammar
+
+*** Functions
+
+#+BEGIN_SRC dot :file ./img/u91_grammar.svg :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "Poder" -> "Can"; "No poder" -> "Can't";
+    "Tener que" -> "Have to";
+    "No tener que" -> "Don't have to";
+  }
+#+END_SRC
 
 *** Examples
     
@@ -573,6 +583,33 @@
    - B) :: It's OK. You _don't have to get_ anything. I bought her a present from both of us.
    - A) :: Thanks! What did you buy?
 
+** Vocabulary
+
+*** Adjectives to describe transport
+
+#+BEGIN_SRC dot :file ./img/u91_vocabulary.svg :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "conveniente" -> "convenient";
+    "inconveniente" -> "inconvenient";
+    "saludable" -> "healthy";
+    "no saludable" -> "unhealthy";
+    "lento" -> "slow";
+    "rápido" -> "fast";
+    "contaminadora" -> "polluting";
+    "amigable con el ambiente" -> "green";
+    "seguro" -> "safe";
+    "difícil" -> "difficult";
+    "fácil" -> "easy";
+    "peligroso" -> "dangerous";
+    "cómodo" -> "comfortable";
+    "incómodo" -> "uncomfortable";
+    "exitoso" -> "successful";
+    "fracaso" -> "unsuccessful";
+    "casco" -> "helmet";
+    "cinturón de seguridad" -> "seatbelt";
+  }
+#+END_SRC
+   
 * Vocabulary: Adjectives examples
 
    | Adjective   | Traduction  | Sentences                                               |
