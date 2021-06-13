@@ -568,6 +568,16 @@
     | What's about it?                              | It's about the future and the way rich people control us... |
     | Who's in it?                                  | Jennifer Lawrence and Josh Hutcherson.                      |
     | Oh, she's good                                | Yeah. It's a good film - I think you'd like it              |
+
+*** Questions
+
+    | Español                          | Inglés                       |
+    |----------------------------------+------------------------------|
+    | ¿Estás buscando una película?    | Are you looking for a films? |
+    | ¿Esta es una película de acción? | Is it an action film?        |
+    | ¿Hay alguien famoso en ella?     | Is anyone famous in it?      |
+    | ¿Deseas comprar un DVD?          | Do you want to buy a DVD?    |
+    | ¿No tengo reproductor de CD?     | I haven't got a CD player?   |
     
 * Changing trends [unit 8.4]
 
