@@ -295,7 +295,6 @@
  }
 #+END_SRC
 
-
 * Having a great time [unit 8.1]
 
 ** Present continuous: Rules positives / negatives
@@ -404,6 +403,115 @@
    | We have a lot of work in the office today so we _aren't having_ a launch break. |
    | It's a bank holiday so most people _aren't going_ to work today.                |
 
+* What a difference! [unit 8.2]
+
+** Appearence, clothes and parts of face
+
+#+BEGIN_SRC dot :file ./img/u82_appearence :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "tall" -> "short" [ dir = both ];
+    "slim" -> "overweight" [ dir = both ];
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u82_appearence]]
+
+  | Clothes               | Phonetics  | Traducción    |
+  |-----------------------+------------+---------------|
+  | socks                 |            | medias        |
+  | jeans                 |            | vaqueros      |
+  | suit                  | / sut /    | traje         |
+  | jacket                | / shaket / | chaqueta      |
+  | trousers              |            | pantalones    |
+  | shirt                 |            | camisa        |
+  | tie                   |            | corbata       |
+  | top                   |            | +top+         |
+  | skirt                 |            | falda         |
+  | sweater               |            | +sweater+     |
+  | shorts                |            | +shorts+      |
+  | dress                 |            | vestido       |
+  | T-shirt               |            | remera        |
+  | coat                  |            | abrigo        |
+  | sunglasses            |            | lentes de sol |
+  | trainers              |            | zapatillas    |
+  | boots                 | / buts /   | botas         |
+  | sandals               |            | sandalias     |
+  | shoes                 |            | zapatos       |
+  | casual/formal clothes |            |               |
+  | underwear             |            | ropa interior |
+
+* What do you recommend? [unit 8.3]
+
+** Function: Asking recomendations
+
+*** Key Phrases
+
+#+BEGIN_SRC dot :file ./img/u83_key_phrases.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "¿Me podés recomendar una buena película?" -> "Can you recommend a good film?";
+    "Dejame pensar..." -> "Let me think...";
+    "¿Qué tipo de películas te gustan?" -> "What kind of films do you like?";
+    "¿Qué hay de Gravity?" -> { "How about Gravity?", "What about Gravity?" };
+    "¿De qué se trata?" -> { "What is it about?" };
+    "¿Quién actua?" -> "Who is in it?";
+    "Creo que te puede gustar.\nEs muy interesante - emocionante -\ngraciosa - entretenida - amorosa - movilizadora..." -> "I think you'd like it.\nIt's very interesting - exciting -\nfunny - entertaining - lovely - moving...";
+    "¡Suena genial!" -> "Sounds good!";
+    "Hay una buena película llamada..." -> "There's a good film called...";
+    "El actor principal es..." -> "The main actor is...";
+    "La actriz principal es..." -> "The main actress is...";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u83_key_phrases.svg]]
+
+** Vocabulary
+
+*** Types of films
+    
+#+BEGIN_SRC dot :file ./img/u8_vocabulary.svg :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "película romántica" -> "romantic film";
+    "película de terror" -> "horror film";
+    "drama" -> "drama";
+    "musical" -> "musical";
+    "película de acción" -> "action film";
+    "comedia" -> "comedy";
+    "película de ciencia ficción" -> "sci-fi film";
+    "película de animación" -> "animation film";
+    "suspenso" -> "thriller";
+    "película de fantasía" -> "fantasy film";
+    "película histórica" -> "historical film";
+  }
+#+END_SRC
+
+* Changing trends [unit 8.4]
+* Citybikes [unit 9.1]
+
+** Grammar: Can / Can't & Have to / Don't have to
+
+*** Examples
+    
+   - 1) :: Motorbikes _can't go_ here. They _have to_ go on another road.
+   - 2) :: You _can_ park here for free. You _don't have to_ pay for fifteen minutes' parking.
+   - 3) :: Bikes _have to_ keep left. People on foot _can't_ walk on the left.
+   - 4) :: You _can_ catch the bus here. You _don't have to_ wait more than ten minutes.
+   - 5) :: You _can't_ ride your bike. You _have to_ get off and walk.
+   - 6) :: You _can_ take a taxi here. You _can't_ park here.
+
+*** Conversations
+
+   - A) :: You _have to wear_ a jacket and tie to this dinner. It's very formal party.
+   - B) :: But it's so hot!
+   - A) :: Well, you _can wear_ your light jacket.
+
+   - A) :: You _don't have to come_ to the meeting. It's not very important.
+   - B) :: That's good because I _can't come_ - I'm too busy.
+
+   - A) :: I _have to get_ a birthday present to Sandra. I completely forgot yesterday.
+   - B) :: It's OK. You _don't have to get_ anything. I bought her a present from both of us.
+   - A) :: Thanks! What did you buy?
 
 * Vocabulary: Adjectives examples
 
