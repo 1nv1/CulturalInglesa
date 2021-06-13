@@ -470,7 +470,7 @@
 
 *** Types of films
     
-#+BEGIN_SRC dot :file ./img/u8_vocabulary.svg :cmdline -Kcirco -Tsvg
+#+BEGIN_SRC dot :file ./img/u83_vocabulary.svg :cmdline -Kcirco -Tsvg
   digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
     "película romántica" -> "romantic film";
     "película de terror" -> "horror film";
@@ -486,7 +486,67 @@
   }
 #+END_SRC
 
+#+RESULTS:
+[[file:./img/u8_vocabulary.svg]]
+
 * Changing trends [unit 8.4]
+
+** Function
+
+*** Key phrases
+
+#+BEGIN_SRC dot :file ./img/u84_key_phrases.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "¿Te puedo hacer algunas preguntas?" -> "Can I ask you a few questions?";
+    "¿Qué tipo de festival te gustan?" -> "What kind of festival do you like?";
+    "A las personas le gusta porque..." -> "People like it because...";
+    "Esto depende del festival..." -> "It depends on the festival...";
+    "Hace años no podías conseguir\ninformación de internet" -> "Years ago you couldn't always\nget information on the internet.";
+    subgraph {
+      "¿Cómo es diferente ahora?" -> "How is it different now?";
+      "¿En que se diferencia de antes?" -> "How is it different from before?";
+      "¿En qué se diferencian ahora?" -> "How are they different now?";
+      "¿En qué se diferencian de antes?" -> "How are they differente from before?";
+    }
+    subgraph {
+      "Esto es muy popular en este momento." -> "It's very popular at the moment.";
+      "Ellos son muy populares en este momento." -> "They're very popular at the moment.";
+    }
+    subgraph {
+      "La seguridad es mucho mejor que antes." -> "Security is much better than before";
+      "Los precios son mucho más caros que antes." -> "Prices are more expensive than before";
+      "Los precios son mucho más baratos que antes." -> "Prices are cheaper than before";
+    }
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u84_key_phrases.svg]]
+
+** Vocabulary
+
+#+BEGIN_SRC dot :file ./img/u84_vocabulary.svg :cmdline -Kcirco -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "compra en línea" -> "shopping online";
+    "comprando en una pequeña tienda" -> "shopping in a small shop";
+    "compras en grandes centros comerciales" -> "shopping in a big shopping malls";
+    "compras en un gran centro comercial" -> "shopping in a big shopping centre";
+    "conveniencia" -> "convenience";
+    "conveniente" -> "convenient";
+    "disfrute" -> "enjoyment";
+    "tendencias" -> "trends";
+    "hipermercados" -> "hypermarkets";
+    "en comparación con" -> "compared to";
+    "sala de exposición" -> "showroom";
+    "compradores" -> "shoppers";
+    "la misma que (ahora)" -> "the same as (now)";
+    "una tienda departamental" -> "a department store";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u84_vocabulary.svg]]
+
 * Citybikes [unit 9.1]
 
 ** Grammar: Can / Can't & Have to / Don't have to
