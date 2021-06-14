@@ -359,6 +359,22 @@
    | visiting  | stopping                 | taking      |
    | waiting   | swimming                 | using       |
 
+** Verbs and Prepositions
+
+#+BEGIN_SRC dot :file ./img/u82_verbs_prepositions.svg :cmdline -Kdot -Tsvg
+   digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+     {"look", "ask", "wait"} -> "for";
+     {"talk"} -> "with";
+     {"live", "stay"} -> "in";
+     {"think", "write", "read", "talk"} -> "about";
+     {"go", "listen"} -> "to";
+     {"look"} -> "at";
+     {"get", "go"} -> "on";
+   }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u82_verbs_prepositions.svg]]
 
 ** Present continuous: Use
 
