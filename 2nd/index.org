@@ -656,7 +656,134 @@
     "cinturón de seguridad" -> "seatbelt";
   }
 #+END_SRC
-   
+
+* Free ride [unit 9.2]
+
+** Vocabulary
+
+*** Transport collocations
+
+#+BEGIN_SRC dot :file ./img/u92_vocabulary_transport-collocations.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = TP; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "take" -> {"a train", "a taxi", "a bus"};
+    "get on/off" -> {"a bike", "a bus"};
+    "get into/out of" -> {"a car", "a taxi"};
+    "ride" -> {"a bike", "a motorbike"};
+    "go by" -> {"car", "train"};
+  }
+#+END_SRC
+
+** Grammar
+
+*** Articles: a/an, the, no article
+
+**** Rules
+
+     | Brief                                                    | Examples                                     |
+     |----------------------------------------------------------+----------------------------------------------|
+     | Usually use *a* / *an* _before_ countable singular nouns | /I've got a car/                             |
+     | Usually use no article before plural nouns               | /I don't like buses/                         |
+     | Usually use no article before cities and countries       | /Madrid is in Spain/                         |
+     | Use no article in some phrases                           | /by bus, on foot, at work, on holiday/       |
+     | Usually use *the* before nouns when there's only one     | /the moon, the Eiffel Tower/                 |
+     | Use /the/ in some phrases                                | /in the morning, on the right, on the metro/ |
+     | Use *the* in superlatives                                | /the most beautiful, the worst/              |
+
+* Sorry I'm late [unit 9.3]
+
+** Vocabulary
+
+*** Excuses
+
+#+BEGIN_SRC dot :file ./img/u93_vocabulary_excuses.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = TP; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "I lost" -> "my keys.";
+    "I missed" -> "the train.";
+    "My car" -> "broke down.";
+    "The traffic" -> "was bad.";
+    "I didn't hear" -> "the alarm clock.";
+  }
+#+END_SRC
+
+** Function
+
+*** Apologising
+
+#+BEGIN_SRC dot :file ./img/u93_function_apologising.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box]; overlap = false;
+    "I'm very sorry I'm late." -> "I thought today was Sunday, so I stayed in bed.";
+    "Sorry to be late." -> "There was a long queue at the coffee shop. I brought you one - here.";
+    "I'm terribly sorry I'm late." -> "My train hit a cow.";
+    "I'm really sorry I'm late." -> "My son took my car keys to school, so I took the bus to his school to get them.";
+    "I'm so sorry." -> "I messed the meeting. I feel awful about it. I drove to my old office by mistake.";
+    "I'm afraid I didn't hear my alarm clock" -> "because I had ear plugs in.";
+  }
+#+END_SRC
+
+* Airport [unit 9.4]
+
+** Key phrases
+
+   | There's a small problem here.                    |
+   | But it's very important that [I arrive on time]. |
+   | You don't understand.                            |
+   | I see/understand, but..                          |
+   | Let me explain one more time.                    |
+   | It's your job to [bring me a meal].              |
+   | Can I speak to the person in charge, please?     |
+
+* Life's a lottery [unit 10.1]
+
+** Grammar
+
+*** Be going to; Would like to
+
+    | Use *be going to* when you _have_ / _don't have_ a definite plan.                                    |
+    | Use *would like to* when you want to do something or when you _have_ / _don't have_ a definite plan. |
+
+* Lookback [unit 10.5]
+
+** Be going to; Would like to
+
+*** Look at the list. Write sentences using /be going to/ and /would like to/
+
+   _Weekend wish list_
+
+   | dinner with Gemma                 | [n] she's busy!            | I'd like to have dinner with Gemma, but I can't - she's busy.                 |
+   | go to Oxford                      | [y] got bus ticket         | I'm going to Oxford. I've got my bus ticket.                                  |
+   | go to the U2 concert              | [n] no got tickets         | I would like to go to U2 concert, but I haven't got tickets.                  |
+   | meet Andy for drink               | [y] he said OK             | I'm going to meet Andy for drink because he said OK.                          |
+   | watch 'Gone with the Wind' on DVD | [y] borrowed it from Cindy | I'm going to watch 'Gone with the Wind' on DVD because borrowd it from Cindy. |
+   | sleep all day                     | [n] not got time!          | I'm would like to sleep allday but haven't got time!                          |
+
+** Plans
+
+*** Complete the questions with the correct verbs
+
+    - 1 :: On your next holiday, do you want to:
+    | _go_ to the beach of _do_ something different? | _Stay_ in a hotel or with friends? |
+
+    - 2 :: You have a free Saturday. Do you want to:
+    | _go_ shopping or _go had_ a walk?          | in the evening, _stay_ in and do nothing, or _have_ a party and then _go_ clubbing? |
+
+    - 3 :: Time for some big changes. Do you want to:
+     | _get_ married or go travelling? | _move_ to and English-speaking country or stay in your country? | _start_ a business or _take_ a long break from work? |
+
+** Phrases with get
+
+*** Put the letters in order to find the words that go with /get/. The first letter of each word is underlined.
+
+    | dclo     | cold     |
+    | bunturns | sunburnt |
+    | gutns    | stugn    |
+    | hrityts  | t        |
+    | hto      | hot      |
+    | irtde    | tired    |
+    | otls     | lost     |
+    | rmwa     | warm     |
+    | tew      | wet      |
+    | ughrny   | hungry   |
+
 * Vocabulary: Adjectives examples
 
    | Adjective   | Traduction  | Sentences                                               |
