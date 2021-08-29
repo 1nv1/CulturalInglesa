@@ -784,6 +784,50 @@
     | tew      | wet      |
     | ughrny   | hungry   |
 
+*** A man was lost at sea for five days. Read the information and make sentences with /get/.
+
+    | He ate all the food on the first day. | He got hungry.  |
+    | He didn't sleep very much.            | He got tired.   |
+    | He sat in the bottom of the raft.     | He got bored.   |
+    | He didn't have a jacket or a hat.     | He got cold.    |
+    | He drank seawater.                    | He got thirsty. |
+    | He went swimming.                     | He got wet.     |
+
+** Will, Might, Won't
+
+*** You and ten friends are going to spend the weekend in a hotel on a high mountain. Read the information.
+
+    - It's a beautiful, quiet place.
+    - It always rains at this time of year.
+    - Walking in the mountains is beautiful, but very dangerous.
+    - There are ten beds.
+    - The hotel has a very good kitchen. Their restaurant can serve meals for twenty-five people maximum.
+    - Not all the students like 'mountain life'!
+
+*** Complete the sentences with /might/, /might not/, /'ll/ or /won't/
+
+    | It _'ll_ rain.                                                |
+    | We _might_ get bored.                                         |
+    | It _'ll_ be very peaceful.                                    |
+    | Someone _might_ get hurt.                                     |
+    | The food _'ll_ be very good.                                  |
+    | There _'ll_ be enough food.                                   |
+    | Some people _might not_ like it but I'm sure I _'ll_ like it. |
+    | There _won't_ be enought beds for all of us.                  |
+
+** Making suggestions
+
+*** Corrrect the sentences
+
+    | Why we don't have a party in the school garden? | Why _don't we_ have a party in the school garden? |
+    | Let's to have 90s music.                        | Let's _have to_ 90s music.                      |
+    | How about start at seven o'clock?               | How about _starting_ at seven o'clock?          |
+    | That sound good.                                | That _sounds_ good.                             |
+    | Shall make some pizza?                          | Shall _we_ make some pizza?                     |
+    | I don't feel like do that.                      | I don't feel like _doing_ that.                 |
+    | That's good idea.                               | That's _a_ good idea.                           |
+    | I like to bring some drinks.                    | I _would_ like to bring some drinks.            |
+    
 * Vocabulary: Adjectives examples
 
    | Adjective   | Traduction  | Sentences                                               |
