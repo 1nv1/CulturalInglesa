@@ -744,10 +744,8 @@
 
 ** Vocabulary
 
-*** Plans
+*** Plans: Collocations
 
-**** Complete the collocations with verbs from the box
-     
     | verb   | collocation                              |
     |--------+------------------------------------------|
     | have   | a party, a holiday, a barbecue           |
@@ -761,6 +759,148 @@
     | move   | to another country, home, into a flat    |
     | take   | a break, time off, photos                |
 
+*** Plans: Examples
+     
+     | This weekend  | I'm going to do some work.                         |
+     | Next month    | I'm going to start a a new business.               |
+     | Next year     | I would like move the business to another country. |
+     | In five years | I would like to learn about quatum computing.      |
+
+     | I would like to drive sports car.                            |
+     | I'm going to have an holiday in the Caribbean.               |
+     | I'm not going to give any presents to my family and firends. |
+     | I would like move to another country.                        |
+     | I'm going like to buy a boat.                                |
+     | I would like to start my own business.                       |
+     | I'm not going keep all the money for myself.                 |
+     | We're going to look at a flat next weekend.                  |
+     | Are you going to be ready in time?                           |
+     | We aren't going to wait.                                     |
+     | They're going to buy a new car.                              |
+
+* Survive [unit 10.2]
+
+** Vocabulary: Get
+
+   The verb *get* has different meanings in English. It can mean
+
+   - become: get hungry
+   - arrive: get home
+   - obtain or buy: get a new car
+
+   Which meaning does *get* have in these phrases:
+
+   - get to work
+   - get angry
+   - get a new motorbike
+   - get sick
+   - get some chocolate
+   - get there
+   
+
+** Vocabulary: Phrases with get
+
+   | When I got to the gym in summer I _get hot_.                  |
+   | I didn't drink anything all day so I _got thirsty_.           |
+   | I stayed up too late and I _got tired_.                       |
+   | I forgot my umbrella yesterday and I _got wet_.               |
+   | I'm really cold. Can I sit by the fire? I need to _get warm_. |
+   | I didn't eat breakfast so I'm _getting hungry_.               |
+   | I didn't have a map or my mobile and I _got lost_.            |
+   | I put my hand on a bee and I _got stung_.                     |
+   | There's no central heating and I oftend _get cold_.           |
+   | I stayed out in the sun and I _got sunburst_.                 |
+   | Marco _got sunburnt_, so he...                                |
+   | I _got thirsty_, so I...                                      |
+   | Adrian _got tired_ at school, so he...                        |
+   | They _got wet_, so they...                                    |
+   | Ed and Leo got _hungry_, so they...                           |
+   | I _got very hot_, so I...                                     |
+   | Helena _got lost_, so she...                                  |
+   | We _got cold_, so we...                                       |
+   | Ferdi _got stung_ by a bee, so he...                          |
+   | Alice was cold, so to _get warm_, she...                      |
+
+** Grammar: Will, Might (not), Won't
+
+   | I'm sure (negative) | Maybe | I'm sure |
+
+   In speaking, *'ll = will* , *won't = will not*.
+   After *will*, *might* and *won't* use infinitive.
+
+** Grammar: Examples
+
+   | Don't stand under a tree _because_ the lightning _might_ hit the tree, or you!     |
+   | Don't touch anything metal in your car and I'm sure the lighting _won't_ hurt you. |
+   | Get away from the bees because you _might_ get stung again.                        |
+   | Don't pinch the bee-sting _because_ the sting _wil_ gt worse, that's for sure.     |
+   | Don't leave your home in an earthquake. A building _might_ fall on you outside.    |
+   | Stay way from mirrors _because_ they _might_ break and cut you.                    |
+   | Build a fire so you _won't_ get cold.                                              |
+   | Make a plan. You _will_ feel better, that's sure.                                  |
+
+* Let's do something new [unit 10.3]
+
+** Vocabulary:
+
+   | a drawing                                    |
+   | a dance performance                          |
+   | a concert                                    |
+   | an exhibition                                |
+   | watch (a film, a play)                       |
+   | look at (a drawing, a photograph, a statue)  |
+   | go to (a concert, an exhibition)             |
+
+#+BEGIN_SRC dot :file ./img/u103_vocabulary.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "watch" -> {"a film", "TV", "a play"};
+    "look at" -> {"a drawing", "a picture", "a statue", "a photograph"};
+    "go to" -> {"a concert", "a play", "an exhibition", "a dance performance"};
+  }
+#+END_SRC
+
+** Functions: Making suggestions
+
+   | How about ...?          |
+   | Shall we ...?           |
+   | Why don't (you, we) ... |
+   | Let's ...               |
+
+#+BEGIN_SRC dot :file ./img/u103_making-suggestions.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    A1 [label = "Do you like looking at photographs?" ];
+    A2 [label = "Really? What kind?"];
+    A3 [label = "When di you last ...?"];
+    B1 [label = "Yes, I do."];
+    B2 [label = "Oh, old black and white ones."];
+    subgraph cluster_A {
+      label = "Person A";
+      A1; A2; A3;
+    }
+    subgraph cluster_B {
+      label = "Person B";
+      B1; B2;
+    }
+    A1 -> B1;
+    B1 -> A2;
+    A2 -> B2;
+    B2 -> A3;
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u103_making-suggestions.svg]]
+
+** Functions: Responding to suggestions
+
+   | Cool / Great!                                      |
+   | (That) sounds interesting / good                   |
+   | I'd like to go.                                    |
+   | (That's a) good idea.                              |
+   | I don't (really) feel like _doing_ / _going_ that. |
+   | It doesn't sound very good.                        |
+   | It's not for me.                                   |
+   
 * Lookback [unit 10.5]
 
 ** Be going to; Would like to
@@ -840,13 +980,13 @@
 *** Corrrect the sentences
 
     | Why we don't have a party in the school garden? | Why _don't we_ have a party in the school garden? |
-    | Let's to have 90s music.                        | Let's _have to_ 90s music.                      |
-    | How about start at seven o'clock?               | How about _starting_ at seven o'clock?          |
-    | That sound good.                                | That _sounds_ good.                             |
-    | Shall make some pizza?                          | Shall _we_ make some pizza?                     |
-    | I don't feel like do that.                      | I don't feel like _doing_ that.                 |
-    | That's good idea.                               | That's _a_ good idea.                           |
-    | I like to bring some drinks.                    | I _would_ like to bring some drinks.            |
+    | Let's to have 90s music.                        | Let's _have to_ 90s music.                        |
+    | How about start at seven o'clock?               | How about _starting_ at seven o'clock?            |
+    | That sound good.                                | That _sounds_ good.                               |
+    | Shall make some pizza?                          | Shall _we_ make some pizza?                       |
+    | I don't feel like do that.                      | I don't feel like _doing_ that.                   |
+    | That's good idea.                               | That's _a_ good idea.                             |
+    | I like to bring some drinks.                    | I _would_ like to bring some drinks.              |
     
 * Vocabulary: Adjectives examples
 
