@@ -11,6 +11,7 @@
 #+LATEX_HEADER: \usepackage[table]{xcolor}
 #+LATEX_HEADER: \setcounter{secnumdepth}{0}
 #+OPTIONS: num:nil
+#+OPTIONS: \n:t
 #+HTML_HEAD: <link rel="shortcut icon" type="image/jpg" href="./img/favicon.png"/>
 #+HTML_HEAD: <link rel="stylesheet" href="./css/org.css" type="text/css" />
 
@@ -741,6 +742,25 @@
     | Use *be going to* when you _have_ / _don't have_ a definite plan.                                    |
     | Use *would like to* when you want to do something or when you _have_ / _don't have_ a definite plan. |
 
+** Vocabulary
+
+*** Plans
+
+**** Complete the collocations with verbs from the box
+     
+    | verb   | collocation                              |
+    |--------+------------------------------------------|
+    | have   | a party, a holiday, a barbecue           |
+    | get    | married, some new jeans, a job           |
+    | do     | some work, a course, something different |
+    | go     | shopping, clubbing, jogging              |
+    | stay   | in, with friends, in a hotel             |
+    | learn  | Spanish, to drive, to swim               |
+    | go for | a walk, a meal, a drink                  |
+    | start  | a new job, a family, a new business      |
+    | move   | to another country, home, into a flat    |
+    | take   | a break, time off, photos                |
+
 * Lookback [unit 10.5]
 
 ** Be going to; Would like to
@@ -776,7 +796,7 @@
     | dclo     | cold     |
     | bunturns | sunburnt |
     | gutns    | stugn    |
-    | hrityts  | t        |
+    | hrityts  | thirsty  |
     | hto      | hot      |
     | irtde    | tired    |
     | otls     | lost     |
