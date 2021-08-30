@@ -900,6 +900,44 @@
    | I don't (really) feel like _doing_ / _going_ that. |
    | It doesn't sound very good.                        |
    | It's not for me.                                   |
+
+
+* Wild weather [unit 10.4]
+
+** Vocabulary
+
+   | hot | warm | cool | cold | wet | dry |
+
+#+BEGIN_SRC dot :file ./img/u104_vocabulary.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = TD; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "What's the weather like? It's" -> {"stormy", "rainy", "raining", "windy", "snowy", "snowing", "cloudy", "sunny"};
+  }
+#+END_SRC
+
+#+RESULTS:
+
+[[file:./img/u104_vocabulary.svg]]
+
+** Key phrases
+
+#+BEGIN_SRC dot :file ./img/u104_key-phrases.svg :cmdline -Kdot -Tsvg
+  digraph { rankdir = LR; node [ style = "rounded, filled", fillcolor = "gray96", shape = box];
+    "This happened about (five years ago)";
+    "But then, one day the weather changed" -> {"it started to rain...", "got hotter..."};
+    {"Everything", "Everywhere"} -> "was" -> {"different", "white", "dry"};
+    "It lasted" -> {"a long time...", "three or four days..."};
+    "It was difficult to" -> {"breathe", "sleep", "do anything"};
+    "To tell you the truth, I really" -> {"hated", "love"} -> "it.";
+    "Everyone got very" -> {"tired", "angry", "ill"};
+    "It was" -> {"glad", "sorry"} -> "when it was over.";
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:./img/u104_key-phrases.svg]]
+
+   | This happened about (five years ago) |
+   | But then, one day the weather change |
    
 * Lookback [unit 10.5]
 
