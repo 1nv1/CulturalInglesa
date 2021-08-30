@@ -839,6 +839,35 @@
    | Build a fire so you _won't_ get cold.                                              |
    | Make a plan. You _will_ feel better, that's sure.                                  |
 
+** Writing: too, also, as well
+
+   *Too* and *as well* come at the end of a sentence.
+
+   - Stay way from windows and mirrors, and bookshelves _too_.
+   - Build a simple shelter and make a fire. So you can get warm and feel safer _as well_.
+   
+   *Also* is before the main verb but after the verb be.
+
+   - It's very humid. _Also_, it is very windy.
+
+** Example: too, also, as well
+
+   We left the jeep and waked all morning, _also_ walked for five hours in the afternoon _too_.
+   We had a short break for lunch.
+   We stopped for a rest in the afternoon.
+   In evening, Sam taught us how to kill a snake and _also_ how to cook it.
+   I didn't like the look of it, but I ate some and Sam _too_.
+
+** Examples: too, also, as well
+
+   | If you buy a travel card from the underground, you can _also_ use it on the bus.                      |
+   | You can ask shopkeepers for help - they're very friendly and they'll know the city _as well_.         |
+   | It's generally a safe city, but it can be _also_ dangerous to walk alone late at night in some areas. |
+   | It isn't a good idea to carry a lot of money, and leave your expensive watch at home _too_.           |
+   | You can get delicious food in cafés and in street markets _as well_.                                  |
+   | Don't walk too far and _also_ wear comfortable shoes - then you won't get tired.                      |
+   | At night, taxi are convenient, but they're expensive _as well_.                                       |
+
 * Let's do something new [unit 10.3]
 
 ** Vocabulary:
@@ -914,10 +943,6 @@
   }
 #+END_SRC
 
-#+RESULTS:
-
-[[file:./img/u104_vocabulary.svg]]
-
 ** Key phrases
 
 #+BEGIN_SRC dot :file ./img/u104_key-phrases.svg :cmdline -Kdot -Tsvg
@@ -933,12 +958,6 @@
   }
 #+END_SRC
 
-#+RESULTS:
-[[file:./img/u104_key-phrases.svg]]
-
-   | This happened about (five years ago) |
-   | But then, one day the weather change |
-   
 * Lookback [unit 10.5]
 
 ** Be going to; Would like to
