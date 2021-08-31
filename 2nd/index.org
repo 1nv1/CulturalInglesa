@@ -797,7 +797,6 @@
    - get some chocolate
    - get there
    
-
 ** Vocabulary: Phrases with get
 
    | When I got to the gym in summer I _get hot_.                  |
@@ -930,7 +929,6 @@
    | It doesn't sound very good.                        |
    | It's not for me.                                   |
 
-
 * Wild weather [unit 10.4]
 
 ** Vocabulary
@@ -957,6 +955,22 @@
     "It was" -> {"glad", "sorry"} -> "when it was over.";
   }
 #+END_SRC
+
+** Questions
+
+   | When was it? What season/time of year?       |
+   | Where were you?                              |
+   | Why were you there?                          |
+   | What was the weather like? Did it change?    |
+   | How did you feel? How did other people feel? |
+
+** Example
+
+   In Dublin today, it'll be _hot_ and _sunny_ with temperatures up to twenty-five degrees Celsius.
+   Tomorrow will be _cloudy_ but _warm_, with a high of twenty.
+   Things will change on Friday night: it'll be a _wet_ night with rain from midnight to early next morning.
+   The temperature will fall to ten so it'll feel _cool_, but the rain will stop so we'll have a _dry_ day all Saturday.
+   Sunday will be windy and cludy... and very _cold_, so make sure your wear winter coat!
 
 * Lookback [unit 10.5]
 
